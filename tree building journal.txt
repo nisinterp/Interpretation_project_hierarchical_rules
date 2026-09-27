@@ -1,0 +1,225 @@
+TREE BUILDING JOURNAL
+======================
+Task: write a script that parses the first sentence of question.train into a
+Universal Dependencies (UD) tree.
+
+Sentence used (first line of hier_gen/data_utils/question_formation_data/
+question.train, a "decl" example):
+
+    your peacock that your vultures do admire doesn't high_five
+    my salamanders who do accept the peacocks .
+
+
+1. Checking the Python environment
+-----------------------------------
+`python3 --version` -> 3.14.4. Only one interpreter is installed on this
+machine (no pyenv/conda, no python3.11/3.12 side by side). Python 3.14 is
+very recent, and libraries with compiled (C/Cython) extensions sometimes lag
+behind new CPython releases by months before they publish prebuilt wheels.
+This was a real risk going in: if no wheels existed yet for cp314, a
+from-source build would be needed (slow, or outright broken if the library's
+C code isn't yet compatible with 3.14's C API changes).
+
+`pip install <anything>` failed immediately with:
+    error: externally-managed-environment
+This is the Debian/PEP 668 protection against pip touching the system
+Python. Expected, not a real problem -- solved by using a virtual
+environment (`python3 -m venv ...`) for every install from here on, per the
+instructions the error itself gives.
+
+
+2. First library candidate: spaCy
+-----------------------------------
+Installed `spacy` (3.8.16) and `en_core_web_sm` -- both had cp314 wheels
+already, no build-from-source needed. Good news on the Python-3.14 front.
+
+Ran it on the sentence. Two problems surfaced:
+
+  a) Label scheme: spaCy's English pipeline outputs `dobj`, `poss`, `neg`,
+     etc. This is the older ClearNLP/OntoNotes-derived scheme spaCy's
+     English models have historically used, not the *current* UD v2
+     relation set (UD v2 uses `obj` instead of `dobj`, folds negation into
+     `advmod` instead of a dedicated `neg` relation, uses `nmod:poss`
+     instead of a bare `poss`, etc.). spaCy's own docs describe their
+     scheme as "worked from" and "an extension of" UD, not identical to it.
+     For a project that is explicitly about replicating a paper phrased in
+     UD/syntactic terms, that mismatch seemed worth avoiding if a genuinely
+     UD-labeled parser was available.
+
+  b) An actual mis-parse, not just a labeling difference: on the relative
+     clause "that your vultures do admire" (no negation), spaCy analyzed
+     "do" as the main verb of that clause and "admire" as its direct object
+     (i.e. it read "admire" as a noun). This is a real English-grammar
+     artifact: natural affirmative English essentially never uses bare
+     periphrastic "do X" without contrastive emphasis or a question/negation
+     context -- you'd just say "your vultures admire [him]". But the paper's
+     synthetic mini-grammar *always* expresses the finite clause as
+     AUX + bare-verb, with or without negation, purely so that question
+     formation reduces to "front the auxiliary." Real-English-trained
+     statistical models have very little support for that exact
+     construction, and spaCy's tagger guessed wrong on this occurrence of
+     it (interestingly, it got the *other* occurrence right: "who do
+     accept" was correctly parsed as aux(do) + verb(accept)). That
+     inconsistency was the deciding factor to look for a better option
+     rather than treat spaCy's output as reliable ground truth.
+
+
+3. Switching to Stanza
+------------------------
+Stanza (Stanford NLP's pipeline) is trained directly on UD treebank data and
+outputs genuine, current UD v2 relations by design -- exactly the labels
+seen in the UD project's own released treebanks. Decided to try it instead.
+
+Installing it surfaced the two real problems of this session:
+
+  Problem A -- ran out of disk space mid-install.
+  `pip install stanza` pulled in `torch` as a dependency, and by default
+  PyPI's `torch` wheel is the full CUDA-enabled build, which drags in a
+  couple of GB of NVIDIA packages as separate wheels (cusparse, cusolver,
+  cudnn, cublas, nvjitlink, triton, ...) even though this machine has no GPU
+  and only needs to parse a handful of short sentences on CPU. The install
+  failed with:
+      OSError: [Errno 28] No space left on device
+  `df -h` showed the venv had been created inside the session's scratchpad
+  directory, which lives on a small (7.8 GB) tmpfs mount, not the real
+  231G+ disk. Two fixes, applied together:
+    1. Recreated the venv on the real disk (under the project folder)
+       instead of the tmpfs-backed scratchpad.
+    2. Installed the CPU-only torch build explicitly, from PyTorch's own
+       CPU wheel index (`--extra-index-url
+       https://download.pytorch.org/whl/cpu`, pinned to `torch==2.14.0+cpu`)
+       instead of letting pip resolve the default GPU build. This avoids
+       pulling any CUDA packages at all and shrinks the torch install from
+       several GB down to ~200 MB -- appropriate for CPU-only, single-
+       sentence dependency parsing.
+  Confirmed clean install and re-verified from a brand-new venv using only
+  the final requirements.txt, to make sure this is actually reproducible
+  for whoever runs the script next, not just an artifact of leftover
+  caches.
+
+  Problem B -- pre-tokenizing broke contraction splitting.
+  To make sure Stanza wouldn't mangle the paper's odd underscore-joined
+  toy verb ("high_five", not a real English word), the first attempt fed it
+  pre-split whitespace tokens via `tokenize_pretokenized=True`. That
+  "fixed" a problem that didn't actually exist yet, and introduced a real
+  one: forcing pre-tokenization also disables Stanza's own contraction
+  splitting step. UD's English treebanks treat contractions as two
+  syntactic words ("doesn't" -> "does" + "n't"), and the depparse model was
+  trained expecting that split. With pre-tokenization forced, "doesn't"
+  stayed as one token and got mis-tagged as a plain adverb (ADV/advmod)
+  disconnected from the word it should modify, instead of AUX/aux +
+  PART/advmod attached correctly to "high_five".
+  Fix: don't pre-tokenize. Stanza's own tokenizer, run on the raw string,
+  handled *both* edge cases correctly at once -- it kept "high_five" as a
+  single token (no whitespace inside it, so nothing forced a split) and it
+  correctly split "doesn't" into "does" + "n't" as two UD words with the
+  correct head and deprels.
+
+  Minor API issue: initially assumed a `CoNLL.doc2conll()` method existed
+  for getting CoNLL-U lines back as a Python list; it doesn't. Checked
+  `dir(CoNLL)` and found `write_doc2conll(doc, filename)` instead, which
+  writes a complete, correctly formatted .conllu file directly (including
+  the "# text = ..." / "# sent_id = ..." comment header, morphological
+  FEATS, and the multi-word-token range line for "doesn't"). Switched to
+  using that directly and appending the human-readable tree afterward,
+  rather than hand-assembling CoNLL-U lines myself.
+
+  Small script bug (caught during testing, not a library problem): the
+  first version of the human-readable tree renderer printed the ROOT
+  node's direct children without their tree-branch connectors (e.g.
+  "peacock [nsubj]" printed flush-left instead of indented under
+  "high_five [root]"), because the branch-prefix logic was accidentally
+  suppressed whenever the running prefix was still empty -- which is true
+  for every direct child of the root, not just the root itself. Fixed by
+  always drawing the connector inside the recursive `walk()` function and
+  only special-casing the literal root line outside of it. Re-ran and
+  confirmed the tree now nests correctly.
+
+
+4. Final result and a standing caveat
+----------------------------------------
+Stanza's parse of the sentence (see First_test_tree) is a clean, entirely
+correct UD v2 analysis: it correctly identifies "high_five" as the root
+despite the long subject-modifying relative clause sitting between the
+subject and the verb, correctly attaches both relative clauses via
+`acl:relcl`, and correctly analyzes *both* occurrences of the paper's
+"do"-support construction (with and without negation) as `aux`, which is
+exactly the thing spaCy got inconsistent on.
+
+That said: Stanza's English model is trained on real English text, not on
+this paper's synthetic mini-language. The mini-language's unconditional use
+of periphrastic "do"-support in affirmative declaratives is out-of-
+distribution for it, the same way it was for spaCy -- this sentence just
+happened to come out right. Do not treat this parser's output as ground
+truth without spot-checking further examples (especially longer ones, or
+ones generated by recursion.py with deeper center embedding); if it turns
+out to be unreliable at scale, the alternative is to write a small rule-
+based UD converter driven directly off the paper's known CFG structure
+(cfgs/tag_token_map.txt + the type templates), which would be slower to
+build but immune to this out-of-distribution issue entirely.
+
+
+5. From CoNLL-U to JSON, and computing dependency distance
+--------------------------------------------------------------
+Follow-up task: re-save the parsed tree in a form suitable for a dependency-
+distance calculation, and write a second script that loads it and computes
+that metric.
+
+  a) creating_json_tree.py -- rewrite of First test.py's output stage.
+     Kept the exact same Stanza pipeline and the exact same non-pre-
+     tokenized parsing call (still needed for the same reasons as section 3,
+     problem B), and only changed what gets written to disk: instead of
+     CoNLL-U + an ASCII tree, it now flattens `sentence.words` into a JSON
+     array of {id, text, lemma, upos, xpos, feats, head, deprel} records --
+     directly usable by a distance calculation because dependency distance
+     only needs, for every word, its own linear position (`id`) and its
+     governor's linear position (`head`); a nested tree would just have to
+     be flattened back into that shape by the next script anyway, so this
+     goes straight to the flat form.
+
+     One deliberate omission: unlike the CoNLL-U file, this JSON does NOT
+     include the multiword-token range line (e.g. "8-9 doesn't") as one of
+     the countable entries -- it's kept separately under a
+     "multiword_tokens" key, purely for reference. That range line has no
+     head/id of its own in the UD scheme (CoNLL-U marks its HEAD/DEPREL
+     columns as "_"), so leaving it in the main "tokens" list would either
+     need to be special-cased or would corrupt a naive distance calculation
+     if someone iterated over every entry blindly. Keeping "tokens" as
+     exactly "the n syntactic words, each with a valid id and head" means
+     compute_dependency_distance.py doesn't need to know anything about
+     multiword tokens at all.
+
+     Output: example_json_tree.txt (plain JSON despite the .txt extension,
+     as requested). Verified it's valid, parseable JSON and manually spot-
+     checked several id/head pairs against the CoNLL-U file from the
+     previous script -- identical parse, just reshaped.
+
+  b) compute_dependency_distance.py -- loads example_json_tree.txt (or any
+     path passed as argv[1]) with `json.load`, then computes Mean
+     Dependency Distance (MDD) per Liu (2008): the average, over every
+     non-root word, of |id - head|. Root is excluded from the count (it has
+     no governor inside the sentence, head = 0 in the UD scheme) --
+     standard convention, not a design choice specific to this project.
+
+     Deliberately reports MDD two ways -- including punctuation and
+     excluding it -- rather than picking one silently: different papers in
+     the dependency-distance literature disagree on whether punctuation
+     tokens should count, and silently choosing one would bury an
+     assumption the user might need to know about. For this sentence:
+       MDD (all 18 tokens, 17 relations):        2.6471
+       MDD (punctuation excluded, 16 relations):  2.3125
+     Hand-verified both by summing the per-word |id-head| column the script
+     prints and dividing by the relation count -- matches the script's
+     output exactly (45/17 and 37/16 respectively).
+
+     This script only imports `json` from the standard library -- it does
+     not need stanza or torch, so it runs in any Python 3 interpreter, not
+     just the venv set up for the parsing step. No problems came up writing
+     or running it; the only judgment call was the punctuation-inclusion
+     question above, resolved by reporting both rather than guessing which
+     one the user wants.
+
+No new environment/disk issues this round -- reused the same venv setup
+(CPU-only torch + stanza) validated in section 3, and the two-space-tmpfs
+issue from before didn't recur since the venv was built on the real disk
+again, not the scratchpad.

@@ -1,0 +1,16 @@
+# Environment used to develop/run "First test.py".
+# Tested on Python 3.14.4.
+#
+# torch has no plain PyPI wheel that pulls only the CPU backend, so the
+# CPU-only wheel index is required (see "tree building journal.txt" for why
+# this matters -- the default GPU build drags in several GB of CUDA
+# packages that are not needed for parsing single sentences on CPU).
+#
+# Install with:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.14.0+cpu
+stanza==1.14.0

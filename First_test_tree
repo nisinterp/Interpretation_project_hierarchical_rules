@@ -1,0 +1,44 @@
+# text = your peacock that your vultures do admire doesn't high_five my salamanders who do accept the peacocks .
+# sent_id = 0
+1	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=0|end_char=4
+2	peacock	peacock	NOUN	NN	Number=Sing	10	nsubj	_	start_char=5|end_char=12
+3	that	that	PRON	WDT	PronType=Rel	7	obj	_	start_char=13|end_char=17
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=18|end_char=22
+5	vultures	vulture	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=23|end_char=31
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=32|end_char=34
+7	admire	admire	VERB	VB	VerbForm=Inf	2	acl:relcl	_	start_char=35|end_char=41
+8-9	doesn't	_	_	_	_	_	_	_	start_char=42|end_char=49
+8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=42|end_char=46
+9	n't	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=46|end_char=49
+10	high_five	high_five	VERB	VB	VerbForm=Inf	0	root	_	start_char=50|end_char=59
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=60|end_char=62
+12	salamanders	salamander	NOUN	NNS	Number=Plur	10	obj	_	start_char=63|end_char=74
+13	who	who	PRON	WP	PronType=Rel	15	nsubj	_	start_char=75|end_char=78
+14	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=79|end_char=81
+15	accept	accept	VERB	VB	VerbForm=Inf	12	acl:relcl	_	start_char=82|end_char=88
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=89|end_char=92
+17	peacocks	peacock	NOUN	NNS	Number=Plur	15	obj	_	start_char=93|end_char=101
+18	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No|start_char=102|end_char=103
+
+
+# source: hier_gen/data_utils/question_formation_data/question.train, line 1
+
+# ==== Human-readable dependency tree ====
+high_five [root]
+|-- peacock [nsubj]
+|   |-- your [nmod:poss]
+|   `-- admire [acl:relcl]
+|       |-- that [obj]
+|       |-- vultures [nsubj]
+|       |   `-- your [nmod:poss]
+|       `-- do [aux]
+|-- does [aux]
+|-- n't [advmod]
+|-- salamanders [obj]
+|   |-- my [nmod:poss]
+|   `-- accept [acl:relcl]
+|       |-- who [nsubj]
+|       |-- do [aux]
+|       `-- peacocks [obj]
+|           `-- the [det]
+`-- . [punct]

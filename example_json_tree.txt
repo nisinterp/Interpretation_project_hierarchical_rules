@@ -1,0 +1,191 @@
+{
+  "text": "your peacock that your vultures do admire doesn't high_five my salamanders who do accept the peacocks .",
+  "tokens": [
+    {
+      "id": 1,
+      "text": "your",
+      "lemma": "your",
+      "upos": "PRON",
+      "xpos": "PRP$",
+      "feats": "Case=Gen|Person=2|Poss=Yes|PronType=Prs",
+      "head": 2,
+      "deprel": "nmod:poss"
+    },
+    {
+      "id": 2,
+      "text": "peacock",
+      "lemma": "peacock",
+      "upos": "NOUN",
+      "xpos": "NN",
+      "feats": "Number=Sing",
+      "head": 10,
+      "deprel": "nsubj"
+    },
+    {
+      "id": 3,
+      "text": "that",
+      "lemma": "that",
+      "upos": "PRON",
+      "xpos": "WDT",
+      "feats": "PronType=Rel",
+      "head": 7,
+      "deprel": "obj"
+    },
+    {
+      "id": 4,
+      "text": "your",
+      "lemma": "your",
+      "upos": "PRON",
+      "xpos": "PRP$",
+      "feats": "Case=Gen|Person=2|Poss=Yes|PronType=Prs",
+      "head": 5,
+      "deprel": "nmod:poss"
+    },
+    {
+      "id": 5,
+      "text": "vultures",
+      "lemma": "vulture",
+      "upos": "NOUN",
+      "xpos": "NNS",
+      "feats": "Number=Plur",
+      "head": 7,
+      "deprel": "nsubj"
+    },
+    {
+      "id": 6,
+      "text": "do",
+      "lemma": "do",
+      "upos": "AUX",
+      "xpos": "VBP",
+      "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+      "head": 7,
+      "deprel": "aux"
+    },
+    {
+      "id": 7,
+      "text": "admire",
+      "lemma": "admire",
+      "upos": "VERB",
+      "xpos": "VB",
+      "feats": "VerbForm=Inf",
+      "head": 2,
+      "deprel": "acl:relcl"
+    },
+    {
+      "id": 8,
+      "text": "does",
+      "lemma": "do",
+      "upos": "AUX",
+      "xpos": "VBZ",
+      "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "head": 10,
+      "deprel": "aux"
+    },
+    {
+      "id": 9,
+      "text": "n't",
+      "lemma": "not",
+      "upos": "PART",
+      "xpos": "RB",
+      "feats": "Polarity=Neg",
+      "head": 10,
+      "deprel": "advmod"
+    },
+    {
+      "id": 10,
+      "text": "high_five",
+      "lemma": "high_five",
+      "upos": "VERB",
+      "xpos": "VB",
+      "feats": "VerbForm=Inf",
+      "head": 0,
+      "deprel": "root"
+    },
+    {
+      "id": 11,
+      "text": "my",
+      "lemma": "my",
+      "upos": "PRON",
+      "xpos": "PRP$",
+      "feats": "Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs",
+      "head": 12,
+      "deprel": "nmod:poss"
+    },
+    {
+      "id": 12,
+      "text": "salamanders",
+      "lemma": "salamander",
+      "upos": "NOUN",
+      "xpos": "NNS",
+      "feats": "Number=Plur",
+      "head": 10,
+      "deprel": "obj"
+    },
+    {
+      "id": 13,
+      "text": "who",
+      "lemma": "who",
+      "upos": "PRON",
+      "xpos": "WP",
+      "feats": "PronType=Rel",
+      "head": 15,
+      "deprel": "nsubj"
+    },
+    {
+      "id": 14,
+      "text": "do",
+      "lemma": "do",
+      "upos": "AUX",
+      "xpos": "VBP",
+      "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+      "head": 15,
+      "deprel": "aux"
+    },
+    {
+      "id": 15,
+      "text": "accept",
+      "lemma": "accept",
+      "upos": "VERB",
+      "xpos": "VB",
+      "feats": "VerbForm=Inf",
+      "head": 12,
+      "deprel": "acl:relcl"
+    },
+    {
+      "id": 16,
+      "text": "the",
+      "lemma": "the",
+      "upos": "DET",
+      "xpos": "DT",
+      "feats": "Definite=Def|PronType=Art",
+      "head": 17,
+      "deprel": "det"
+    },
+    {
+      "id": 17,
+      "text": "peacocks",
+      "lemma": "peacock",
+      "upos": "NOUN",
+      "xpos": "NNS",
+      "feats": "Number=Plur",
+      "head": 15,
+      "deprel": "obj"
+    },
+    {
+      "id": 18,
+      "text": ".",
+      "lemma": ".",
+      "upos": "PUNCT",
+      "xpos": ".",
+      "feats": null,
+      "head": 10,
+      "deprel": "punct"
+    }
+  ],
+  "multiword_tokens": [
+    {
+      "id": "8-9",
+      "text": "doesn't"
+    }
+  ]
+}
