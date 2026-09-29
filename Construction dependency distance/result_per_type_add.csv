@@ -1,0 +1,57 @@
+checkpoint,type,acc,n,avg_dependency_distance
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_intrans quest aux_p det n_p rel aux_p v_intrans v_intrans,0.5205913410770855,947,2.1666666666666665
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel aux_p v_intrans v_trans det n_p prep det n_p,0.46226415094339623,106,2.0
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel aux_p v_intrans v_trans det n_p prep det n_s,0.3763440860215054,93,2.0
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_p quest aux_p det n_p rel aux_p v_intrans v_trans det n_p,0.48255813953488375,172,2.0
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel aux_p v_intrans v_trans det n_s prep det n_p,0.5465116279069767,86,2.0
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel aux_p v_intrans v_trans det n_s prep det n_s,0.4457831325301205,83,2.0
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_s quest aux_p det n_p rel aux_p v_intrans v_trans det n_s,0.6168831168831169,154,2.0
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_intrans quest aux_p det n_p rel aux_p v_trans det n_p v_intrans,0.45180722891566266,498,2.25
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_p prep det n_p,0.30434782608695654,46,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_p prep det n_s,0.28888888888888886,45,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_p,0.4457831325301205,83,2.1
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_s prep det n_p,0.16666666666666666,48,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_s prep det n_s,0.32142857142857145,28,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_s,0.4942528735632184,87,2.1
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_intrans quest aux_p det n_p rel aux_p v_trans det n_s v_intrans,0.4896421845574388,531,2.25
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_p prep det n_p,0.15555555555555556,45,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_p prep det n_s,0.3225806451612903,31,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_p,0.36231884057971014,69,2.1
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_s prep det n_p,0.3111111111111111,45,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_s prep det n_s,0.3333333333333333,42,2.076923076923077
+checkpoint_300000_seed40.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_s,0.5806451612903226,93,2.1
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_intrans quest aux_p det n_p rel det n_p aux_p v_trans v_intrans,0.38877551020408163,980,2.75
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_p prep det n_p,0.08641975308641975,81,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_p prep det n_s,0.12643678160919541,87,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_p,0.4233128834355828,163,2.5
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_s prep det n_p,0.09278350515463918,97,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_s prep det n_s,0.05555555555555555,72,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_s,0.38562091503267976,153,2.5
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_intrans quest aux_s det n_s rel aux_s v_intrans v_intrans,0.844017094017094,936,2.1666666666666665
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel aux_s v_intrans v_trans det n_p prep det n_p,0.8947368421052632,76,2.0
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel aux_s v_intrans v_trans det n_p prep det n_s,0.9466666666666667,75,2.0
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_p quest aux_s det n_s rel aux_s v_intrans v_trans det n_p,0.8048780487804879,164,2.0
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel aux_s v_intrans v_trans det n_s prep det n_p,0.926829268292683,82,2.0
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel aux_s v_intrans v_trans det n_s prep det n_s,0.9285714285714286,84,2.0
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_s quest aux_s det n_s rel aux_s v_intrans v_trans det n_s,0.8356164383561644,146,2.0
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_intrans quest aux_s det n_s rel aux_s v_trans det n_p v_intrans,0.8,540,2.25
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_p prep det n_p,0.875,56,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_p prep det n_s,0.8333333333333334,54,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_p,0.8651685393258427,89,2.1
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_s prep det n_p,0.8444444444444444,45,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_s prep det n_s,0.723404255319149,47,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_s,0.8315789473684211,95,2.1
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_intrans quest aux_s det n_s rel aux_s v_trans det n_s v_intrans,0.7706611570247934,484,2.25
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_p prep det n_p,0.85,40,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_p prep det n_s,0.7857142857142857,42,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_p,0.8144329896907216,97,2.1
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_s prep det n_p,0.782608695652174,46,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_s prep det n_s,0.7619047619047619,42,2.076923076923077
+checkpoint_300000_seed40.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_s,0.9052631578947369,95,2.1
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_intrans quest aux_s det n_s rel det n_s aux_s v_trans v_intrans,0.709452736318408,1005,2.75
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_p prep det n_p,0.5057471264367817,87,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_p prep det n_s,0.6666666666666666,84,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_p,0.7305389221556886,167,2.5
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_s prep det n_p,0.55,100,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_s prep det n_s,0.5121951219512195,82,2.3846153846153846
+checkpoint_300000_seed40.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_s,0.7257142857142858,175,2.5
