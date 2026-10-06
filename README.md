@@ -263,15 +263,3 @@ for which constructions a model gets wrong.
   push. `Question data with trees/` has it pre-split into 4 parts
   (~90-98MB each) instead; regenerate the unsplit version with
   `build_question_train_tsv.py` if you need it as one file.
-
-## Citation
-
-```bibtex
-@inproceedings{qin-etal-2025-data,
-    title = "Data Drives Unstable Hierarchical Generalization in {LM}s",
-    author = "Qin, Tian and Saphra, Naomi and Alvarez-Melis, David",
-    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
-    year = "2025",
-    url = "https://aclanthology.org/2025.emnlp-main.593/"
-}
-```
