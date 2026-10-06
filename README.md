@@ -179,9 +179,6 @@ python evaluate_qf_custom_data.py runs/.../checkpoint_300000.pth \
     --test_file qf_data/test/question_recursion_depth5.test \
     --out depth_results.csv
 ```
-`acc_unambiguous` in the output is the figure that matters: accuracy on
-exactly the examples where only the hierarchical rule (not the linear
-"front the first/last aux" shortcut) gives the right answer.
 
 > **Design note on `recursion.py`'s grammar**: its object NP is
 > deliberately kept clause-free (`Det N (PP)?`, never a relative clause),
