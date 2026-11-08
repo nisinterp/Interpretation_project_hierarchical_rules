@@ -32,12 +32,14 @@ dependency-distance analysis layer on top of it. You need a local clone of
    `Tree creation supplementing scripts/`): every declarative/question pair
    in `question.train`, each parsed into a UD dependency tree, for
    downstream syntactic-complexity analysis.
-4. **Per-construction dependency-distance analysis**
-   (`Construction dependency distance/`): given a model's accuracy broken
-   down by sentence-construction type, compute each construction's mean
-   dependency distance (Liu, 2008) directly and deterministically from its
-   grammar template — a candidate explanatory variable for *why* some
-   constructions are harder than others.
+4. **Per-construction complexity metrics**
+   (`Complexity metrics/`): given a model's accuracy broken down by
+   sentence-construction type, compute each construction's syntactic
+   complexity directly and deterministically from its grammar template:
+   average dependency distance (Liu, 2008), average branching factor,
+   clauses / verbs / NPs per sentence, and verb/noun ratio. These are
+   candidate explanatory variables for *why* some constructions are harder
+   than others.
 
 ## Repository structure
 
@@ -81,14 +83,16 @@ Interpretation_project_hierarchical_rules/
 │                                                        rows of question.train, split into 4 files to
 │                                                        clear GitHub's 100MB per-file push limit
 │
-└── Construction dependency distance/
+└── Complexity metrics/
     ├── results_per_type.csv                      # source: one model checkpoint's accuracy per sentence
     │                                                 construction (from jail_lexicon_attitude_study)
     ├── results_per_type_seed228embonly.csv        # source: a second checkpoint's per-construction accuracy
     ├── result_per_type_add.csv                    # = results_per_type.csv + avg_dependency_distance column
     ├── result_per_type_seed228embonly_add.csv      # = results_per_type_seed228embonly.csv + that column
     ├── add_avg_dependency_distance.py             # computes that column for a results_per_type.csv-shaped file
-    └── dependency_distance_from_tokens.py         # same calculation, standalone, for one tag string at a time
+    ├── dependency_distance_from_tokens.py         # same calculation, standalone, for one tag string at a time
+    ├── branching_factor_from_tokens.py            # average branching factor (mean dependents per head)
+    └── sentence_counts_from_tokens.py             # clauses / verbs / NPs per sentence, verb/noun ratio
 ```
 
 ## Setup
@@ -125,8 +129,7 @@ cd "Tree creation supplementing scripts"
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt   # Stanza + CPU-only torch; see the file for the exact pinned versions
 ```
-`add_avg_dependency_distance.py` and `dependency_distance_from_tokens.py`
-(in `Construction dependency distance/`) use only the Python standard
+The scripts in `Complexity metrics/` use only the Python standard
 library — no environment needed for those.
 
 ## Reproducing the study, end to end
@@ -140,7 +143,7 @@ python evaluate_qf_orig_data.py runs/qf_section2/checkpoints/*/checkpoint_300000
     --per_type --out results.csv   # writes results.csv and results_per_type.csv
 ```
 `results_per_type.csv`'s shape (`checkpoint,type,acc,n`) is exactly what
-`Construction dependency distance/add_avg_dependency_distance.py` expects.
+`Complexity metrics/add_avg_dependency_distance.py` expects.
 
 ### B. Train on the "Center Embed" condition (Section 3.2)
 
@@ -221,7 +224,7 @@ every dead end, every bug, and how each was found — is in
 `"Tree creation supplementing scripts/tree building journal.txt"` and
 `"...building_trees_journal.txt"`.
 
-### E. Per-construction dependency-distance analysis
+### E. Per-construction complexity metrics
 
 Given a `checkpoint,type,acc,n` file from step A's `--per_type` evaluation
 (`type` is a grammatical-tag *template* like
@@ -231,11 +234,19 @@ not an actual sentence — every concrete sentence sharing a template has an
 grammatical category, never on which word fills a slot):
 
 ```bash
-cd "Construction dependency distance"
+cd "Complexity metrics"
 python add_avg_dependency_distance.py --input results_per_type.csv --output result_per_type_add.csv
 # or, for a single construction string, no CSV needed:
 python dependency_distance_from_tokens.py "det n_p rel aux_p v_intrans aux_p v_intrans"
+python branching_factor_from_tokens.py   "det n_p rel aux_p v_intrans aux_p v_intrans"
+python sentence_counts_from_tokens.py    "det n_p rel aux_p v_intrans aux_p v_intrans"
 ```
+All metric scripts share one parser (`parse_sentence` / `build_head_map` in
+`dependency_distance_from_tokens.py`), so every metric is computed on the
+same tree. Average branching factor averages over heads only (tokens with
+at least one dependent). Verbs per sentence counts lexical verbs only, not
+auxiliaries. In this grammar every clause has exactly one lexical verb, so
+clauses per sentence always equals verbs per sentence.
 This lets you correlate a construction's mean dependency distance against
 the model's accuracy on it — a candidate syntactic-complexity explanation
 for which constructions a model gets wrong.
