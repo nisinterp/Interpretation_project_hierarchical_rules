@@ -1,0 +1,87 @@
+,type,number,share
+0,det n_s aux_s v_trans det n_p rel det n_s aux_s v_trans,7,0.017241379310344827
+1,det n_s prep det n_p aux_s v_trans det n_s prep det n_s,2,0.0049261083743842365
+2,det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans,2,0.0049261083743842365
+3,det n_s aux_s v_trans det n_s,19,0.046798029556650245
+4,det n_s aux_s v_trans det n_p rel aux_p v_intrans,10,0.024630541871921183
+5,det n_s prep det n_s aux_s v_intrans,7,0.017241379310344827
+6,det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p,6,0.014778325123152709
+7,det n_p prep det n_p aux_p v_trans det n_s,2,0.0049261083743842365
+8,det n_s prep det n_p aux_s v_trans det n_p,5,0.012315270935960592
+9,det n_s aux_s v_trans det n_p,20,0.04926108374384237
+10,det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s,1,0.0024630541871921183
+11,det n_p aux_p v_trans det n_s rel aux_s v_intrans,21,0.05172413793103448
+12,det n_s prep det n_s aux_s v_trans det n_p,4,0.009852216748768473
+13,det n_s prep det n_s aux_s v_trans det n_s,7,0.017241379310344827
+14,det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p,5,0.012315270935960592
+15,det n_s prep det n_p aux_s v_trans det n_p rel det n_s aux_s v_trans,1,0.0024630541871921183
+16,det n_p aux_p v_trans det n_p,16,0.03940886699507389
+17,det n_p prep det n_p aux_p v_trans det n_s prep det n_p,2,0.0049261083743842365
+18,det n_s aux_s v_trans det n_p prep det n_p,9,0.022167487684729065
+19,det n_s aux_s v_trans det n_s prep det n_p,11,0.027093596059113302
+20,det n_p aux_p v_trans det n_p rel aux_p v_trans det n_s,7,0.017241379310344827
+21,det n_p aux_p v_trans det n_p prep det n_s,6,0.014778325123152709
+22,det n_p prep det n_p aux_p v_intrans,6,0.014778325123152709
+23,det n_p prep det n_s aux_p v_trans det n_s prep det n_s,6,0.014778325123152709
+24,det n_p aux_p v_trans det n_p prep det n_p,8,0.019704433497536946
+25,det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_s,2,0.0049261083743842365
+26,det n_s prep det n_s aux_s v_trans det n_p rel aux_p v_trans det n_s,2,0.0049261083743842365
+27,det n_p aux_p v_trans det n_p rel aux_p v_intrans,10,0.024630541871921183
+28,det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_trans det n_p,2,0.0049261083743842365
+29,det n_s prep det n_s aux_s v_trans det n_s rel det n_s aux_s v_trans,1,0.0024630541871921183
+30,det n_p prep det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans,1,0.0024630541871921183
+31,det n_s aux_s v_trans det n_s prep det n_s,13,0.03201970443349754
+32,det n_p prep det n_s aux_p v_trans det n_p prep det n_p,5,0.012315270935960592
+33,det n_p aux_p v_trans det n_s rel aux_s v_trans det n_s,3,0.007389162561576354
+34,det n_s prep det n_p aux_s v_trans det n_s,6,0.014778325123152709
+35,det n_p prep det n_s aux_p v_intrans,5,0.012315270935960592
+36,det n_p aux_p v_trans det n_s prep det n_p,9,0.022167487684729065
+37,det n_s prep det n_s aux_s v_trans det n_p prep det n_s,6,0.014778325123152709
+38,det n_p prep det n_s aux_p v_trans det n_s,6,0.014778325123152709
+39,det n_s aux_s v_trans det n_s rel aux_s v_intrans,15,0.03694581280788178
+40,det n_s aux_s v_trans det n_p prep det n_s,9,0.022167487684729065
+41,det n_p aux_p v_trans det n_s,25,0.06157635467980296
+42,det n_p aux_p v_trans det n_s rel det n_p aux_p v_trans,1,0.0024630541871921183
+43,det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_trans det n_p,1,0.0024630541871921183
+44,det n_s prep det n_p aux_s v_trans det n_p prep det n_s,1,0.0024630541871921183
+45,det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p,1,0.0024630541871921183
+46,det n_p aux_p v_trans det n_s rel aux_s v_trans det n_p,2,0.0049261083743842365
+47,det n_p prep det n_s aux_p v_trans det n_p rel det n_p aux_p v_trans,1,0.0024630541871921183
+48,det n_p aux_p v_trans det n_s prep det n_s,10,0.024630541871921183
+49,det n_s prep det n_s aux_s v_trans det n_s prep det n_p,1,0.0024630541871921183
+50,det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_intrans,4,0.009852216748768473
+51,det n_s prep det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans,1,0.0024630541871921183
+52,det n_p prep det n_p aux_p v_trans det n_p prep det n_s,2,0.0049261083743842365
+53,det n_s prep det n_s aux_s v_trans det n_p rel aux_p v_intrans,2,0.0049261083743842365
+54,det n_p prep det n_s aux_p v_trans det n_s prep det n_p,2,0.0049261083743842365
+55,det n_p prep det n_p aux_p v_trans det n_s prep det n_s,1,0.0024630541871921183
+56,det n_s prep det n_p aux_s v_trans det n_p rel det n_p aux_p v_trans,1,0.0024630541871921183
+57,det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_trans det n_s,1,0.0024630541871921183
+58,det n_p prep det n_s aux_p v_trans det n_p prep det n_s,1,0.0024630541871921183
+59,det n_p prep det n_s aux_p v_trans det n_p rel det n_s aux_s v_trans,1,0.0024630541871921183
+60,det n_p prep det n_p aux_p v_trans det n_p prep det n_p,1,0.0024630541871921183
+61,det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_intrans,4,0.009852216748768473
+62,det n_p prep det n_s aux_p v_trans det n_s rel det n_s aux_s v_trans,2,0.0049261083743842365
+63,det n_p aux_p v_trans det n_p rel det n_p aux_p v_trans,5,0.012315270935960592
+64,det n_s prep det n_p aux_s v_intrans,10,0.024630541871921183
+65,det n_s aux_s v_trans det n_p rel det n_p aux_p v_trans,3,0.007389162561576354
+66,det n_s prep det n_s aux_s v_trans det n_s rel aux_s v_trans det n_p,1,0.0024630541871921183
+67,det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_trans det n_s,2,0.0049261083743842365
+68,det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans,2,0.0049261083743842365
+69,det n_p aux_p v_trans det n_p rel det n_s aux_s v_trans,2,0.0049261083743842365
+70,det n_p aux_p v_trans det n_s rel det n_s aux_s v_trans,5,0.012315270935960592
+71,det n_s prep det n_s aux_s v_trans det n_s prep det n_s,1,0.0024630541871921183
+72,det n_s prep det n_p aux_s v_trans det n_s prep det n_p,3,0.007389162561576354
+73,det n_p prep det n_s aux_p v_trans det n_s rel aux_s v_intrans,1,0.0024630541871921183
+74,det n_s aux_s v_intrans,2,0.0049261083743842365
+75,det n_p prep det n_s aux_p v_trans det n_p,4,0.009852216748768473
+76,det n_p prep det n_s aux_p v_trans det n_p rel aux_p v_intrans,1,0.0024630541871921183
+77,det n_s prep det n_s aux_s v_trans det n_s rel det n_p aux_p v_trans,1,0.0024630541871921183
+78,det n_s prep det n_s aux_s v_trans det n_p prep det n_p,1,0.0024630541871921183
+79,det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_trans det n_p,2,0.0049261083743842365
+80,det n_p prep det n_p aux_p v_trans det n_s rel aux_s v_intrans,1,0.0024630541871921183
+81,det n_p prep det n_p aux_p v_trans det n_p rel aux_p v_intrans,3,0.007389162561576354
+82,det n_s aux_s v_trans det n_p rel aux_p v_trans det n_p,2,0.0049261083743842365
+83,det n_s prep det n_p aux_s v_trans det n_s rel aux_s v_trans det n_p,1,0.0024630541871921183
+84,det n_s prep det n_p aux_s v_trans det n_p rel aux_p v_intrans,1,0.0024630541871921183
+85,det n_s aux_s v_trans det n_s rel aux_s v_trans det n_s,1,0.0024630541871921183

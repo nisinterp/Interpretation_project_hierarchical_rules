@@ -1,0 +1,57 @@
+,type,number,share
+0,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,93,0.0093
+1,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,95,0.0095
+2,det n_s rel aux_s v_intrans aux_s v_intrans,936,0.0936
+3,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p,82,0.0082
+4,det n_p rel aux_p v_trans det n_s aux_p v_intrans,531,0.0531
+5,det n_s rel aux_s v_trans det n_s aux_s v_intrans,484,0.0484
+6,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s,84,0.0084
+7,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p,106,0.0106
+8,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s,75,0.0075
+9,det n_p rel aux_p v_intrans aux_p v_intrans,947,0.0947
+10,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p,167,0.0167
+11,det n_p rel det n_p aux_p v_trans aux_p v_intrans,980,0.098
+12,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p,86,0.0086
+13,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_s,87,0.0087
+14,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s,47,0.0047
+15,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p,76,0.0076
+16,det n_s rel aux_s v_intrans aux_s v_trans det n_s,146,0.0146
+17,det n_p rel aux_p v_intrans aux_p v_trans det n_s,154,0.0154
+18,det n_p rel aux_p v_intrans aux_p v_trans det n_p,172,0.0172
+19,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p,46,0.0046
+20,det n_s rel aux_s v_intrans aux_s v_trans det n_p,164,0.0164
+21,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,97,0.0097
+22,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_p,97,0.0097
+23,det n_p rel aux_p v_trans det n_p aux_p v_intrans,498,0.0498
+24,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p,163,0.0163
+25,det n_s rel det n_s aux_s v_trans aux_s v_intrans,1005,0.1005
+26,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s,42,0.0042
+27,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s,175,0.0175
+28,det n_s rel aux_s v_trans det n_p aux_s v_intrans,540,0.054
+29,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s,93,0.0093
+30,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p,48,0.0048
+31,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,87,0.0087
+32,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p,45,0.0045
+33,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s,83,0.0083
+34,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_s,84,0.0084
+35,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,83,0.0083
+36,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,69,0.0069
+37,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_s,82,0.0082
+38,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p,87,0.0087
+39,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,89,0.0089
+40,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p,56,0.0056
+41,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p,45,0.0045
+42,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p,40,0.004
+43,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s,54,0.0054
+44,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,95,0.0095
+45,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_s,72,0.0072
+46,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_p,100,0.01
+47,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p,45,0.0045
+48,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p,81,0.0081
+49,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s,42,0.0042
+50,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s,45,0.0045
+51,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s,31,0.0031
+52,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p,46,0.0046
+53,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s,153,0.0153
+54,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s,42,0.0042
+55,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s,28,0.0028
