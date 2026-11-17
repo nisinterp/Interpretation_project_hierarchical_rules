@@ -1,0 +1,57 @@
+checkpoint,type,acc,n
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_intrans quest aux_p det n_p rel aux_p v_intrans v_intrans,1.0,947
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel aux_p v_intrans v_trans det n_p prep det n_p,1.0,106
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel aux_p v_intrans v_trans det n_p prep det n_s,1.0,93
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_p quest aux_p det n_p rel aux_p v_intrans v_trans det n_p,1.0,172
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel aux_p v_intrans v_trans det n_s prep det n_p,1.0,86
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel aux_p v_intrans v_trans det n_s prep det n_s,1.0,83
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_intrans aux_p v_trans det n_s quest aux_p det n_p rel aux_p v_intrans v_trans det n_s,1.0,154
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_intrans quest aux_p det n_p rel aux_p v_trans det n_p v_intrans,1.0,498
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_p prep det n_p,1.0,46
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_p prep det n_s,1.0,45
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_p,1.0,83
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_s prep det n_p,1.0,48
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_s prep det n_s,1.0,28
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s quest aux_p det n_p rel aux_p v_trans det n_p v_trans det n_s,1.0,87
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_intrans quest aux_p det n_p rel aux_p v_trans det n_s v_intrans,1.0,531
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_p prep det n_p,1.0,45
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_p prep det n_s,1.0,31
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_p,1.0,69
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_s prep det n_p,1.0,45
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_s prep det n_s,1.0,42
+checkpoint_250000_seed4_embonly.pth,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s quest aux_p det n_p rel aux_p v_trans det n_s v_trans det n_s,1.0,93
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_intrans quest aux_p det n_p rel det n_p aux_p v_trans v_intrans,0.003061224489795918,980
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_p quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_p prep det n_p,0.0,81
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p prep det n_s quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_p prep det n_s,0.011494252873563218,87
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_p quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_p,0.006134969325153374,163
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_p quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_s prep det n_p,0.0,97
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s prep det n_s quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_s prep det n_s,0.0,72
+checkpoint_250000_seed4_embonly.pth,det n_p rel det n_p aux_p v_trans aux_p v_trans det n_s quest aux_p det n_p rel det n_p aux_p v_trans v_trans det n_s,0.006535947712418301,153
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_intrans quest aux_s det n_s rel aux_s v_intrans v_intrans,1.0,936
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel aux_s v_intrans v_trans det n_p prep det n_p,1.0,76
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel aux_s v_intrans v_trans det n_p prep det n_s,1.0,75
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_p quest aux_s det n_s rel aux_s v_intrans v_trans det n_p,1.0,164
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel aux_s v_intrans v_trans det n_s prep det n_p,1.0,82
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel aux_s v_intrans v_trans det n_s prep det n_s,1.0,84
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_intrans aux_s v_trans det n_s quest aux_s det n_s rel aux_s v_intrans v_trans det n_s,1.0,146
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_intrans quest aux_s det n_s rel aux_s v_trans det n_p v_intrans,1.0,540
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_p prep det n_p,1.0,56
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_p prep det n_s,1.0,54
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_p,1.0,89
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_s prep det n_p,1.0,45
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_s prep det n_s,1.0,47
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s quest aux_s det n_s rel aux_s v_trans det n_p v_trans det n_s,1.0,95
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_intrans quest aux_s det n_s rel aux_s v_trans det n_s v_intrans,1.0,484
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_p prep det n_p,1.0,40
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_p prep det n_s,1.0,42
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_p,1.0,97
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_s prep det n_p,1.0,46
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_s prep det n_s,1.0,42
+checkpoint_250000_seed4_embonly.pth,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s quest aux_s det n_s rel aux_s v_trans det n_s v_trans det n_s,1.0,95
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_intrans quest aux_s det n_s rel det n_s aux_s v_trans v_intrans,0.2009950248756219,1005
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_p quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_p prep det n_p,0.2413793103448276,87
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p prep det n_s quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_p prep det n_s,0.27380952380952384,84
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_p quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_p,0.25149700598802394,167
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_p quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_s prep det n_p,0.27,100
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s prep det n_s quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_s prep det n_s,0.34146341463414637,82
+checkpoint_250000_seed4_embonly.pth,det n_s rel det n_s aux_s v_trans aux_s v_trans det n_s quest aux_s det n_s rel det n_s aux_s v_trans v_trans det n_s,0.3028571428571429,175

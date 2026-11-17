@@ -194,10 +194,14 @@ def extract_declarative_tags(token_string):
     """If given a full results_per_type.csv-style "type" field (declarative
     half + " quest "/" decl" + question half), return just the declarative
     half's tags. If given a bare declarative tag string, return it as-is."""
+    token_string = token_string.strip()
     if " quest " in token_string:
         return token_string.split(" quest ")[0].split()
-    if token_string.endswith(" decl"):
-        return token_string[: -len(" decl")].split()
+    # recursion-depth test files (question_recursion_depthN.test) give only
+    # the declarative half followed by a bare task marker: "<decl> quest"
+    for marker in (" quest", " decl"):
+        if token_string.endswith(marker):
+            return token_string[: -len(marker)].split()
     return token_string.split()
 
 

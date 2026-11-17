@@ -1,0 +1,176 @@
+grouping,group,metric,n_types,n_distinct_metric_values,pearson_r,pearson_p,spearman_rho,spearman_p
+model x test_set,seed0_embonly | question,sentence_length,56,5,0.0119763,0.930191,-0.0376899,0.782716
+model x test_set,seed0_embonly | question,avg_dependency_distance,56,8,0.532414,2.40476e-05,0.353604,0.00750829
+model x test_set,seed0_embonly | question,avg_branching_factor,56,3,-0.057167,0.675587,-0.0715992,0.600008
+model x test_set,seed0_embonly | question,clauses_per_sentence,56,1,,,,
+model x test_set,seed0_embonly | question,verbs_per_sentence,56,1,,,,
+model x test_set,seed0_embonly | question,nps_per_sentence,56,4,0.027385,0.84121,-0.0288686,0.832728
+model x test_set,seed0_embonly | question,verb_noun_ratio,56,4,-0.0199596,0.883914,0.0288686,0.832728
+model x test_set,seed105_embonly | question_recursion_depth2,sentence_length,56,3,-0.0175552,0.897818,-0.0184868,0.892427
+model x test_set,seed105_embonly | question_recursion_depth2,avg_dependency_distance,56,3,0.012216,0.928798,0.0184868,0.892427
+model x test_set,seed105_embonly | question_recursion_depth2,avg_branching_factor,56,3,-0.0307744,0.82186,-0.0375899,0.783278
+model x test_set,seed105_embonly | question_recursion_depth2,clauses_per_sentence,56,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth2,verbs_per_sentence,56,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth2,nps_per_sentence,56,3,-0.0138305,0.919417,-0.0184868,0.892427
+model x test_set,seed105_embonly | question_recursion_depth2,verb_noun_ratio,56,3,0.00841686,0.950908,0.0184868,0.892427
+model x test_set,seed105_embonly | question_recursion_depth3,sentence_length,112,3,-0.02607,0.784968,-0.0687405,0.471419
+model x test_set,seed105_embonly | question_recursion_depth3,avg_dependency_distance,112,3,0.0261441,0.784372,0.0687405,0.471419
+model x test_set,seed105_embonly | question_recursion_depth3,avg_branching_factor,112,3,-0.0207434,0.828139,-0.0665839,0.485473
+model x test_set,seed105_embonly | question_recursion_depth3,clauses_per_sentence,112,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth3,verbs_per_sentence,112,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth3,nps_per_sentence,112,3,-0.0261401,0.784404,-0.0687405,0.471419
+model x test_set,seed105_embonly | question_recursion_depth3,verb_noun_ratio,112,3,0.0258567,0.786685,0.0687405,0.471419
+model x test_set,seed105_embonly | question_recursion_depth4,sentence_length,224,3,0.071069,0.289576,0.0641177,0.339456
+model x test_set,seed105_embonly | question_recursion_depth4,avg_dependency_distance,224,3,-0.0670833,0.317543,-0.0641177,0.339456
+model x test_set,seed105_embonly | question_recursion_depth4,avg_branching_factor,224,3,0.0855796,0.20195,0.0854902,0.202424
+model x test_set,seed105_embonly | question_recursion_depth4,clauses_per_sentence,224,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth4,verbs_per_sentence,224,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth4,nps_per_sentence,224,3,0.0654031,0.329843,0.0641177,0.339456
+model x test_set,seed105_embonly | question_recursion_depth4,verb_noun_ratio,224,3,-0.0595811,0.374795,-0.0641177,0.339456
+model x test_set,seed105_embonly | question_recursion_depth5,sentence_length,448,3,-0.0500181,0.290791,-0.0663183,0.16112
+model x test_set,seed105_embonly | question_recursion_depth5,avg_dependency_distance,448,3,0.0486268,0.304435,0.0663183,0.16112
+model x test_set,seed105_embonly | question_recursion_depth5,avg_branching_factor,448,3,-0.0513681,0.27795,-0.0678684,0.151531
+model x test_set,seed105_embonly | question_recursion_depth5,clauses_per_sentence,448,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth5,verbs_per_sentence,448,1,,,,
+model x test_set,seed105_embonly | question_recursion_depth5,nps_per_sentence,448,3,-0.04749,0.315894,-0.0663183,0.16112
+model x test_set,seed105_embonly | question_recursion_depth5,verb_noun_ratio,448,3,0.0451402,0.340461,0.0663183,0.16112
+model x test_set,seed228_embonly | question,sentence_length,56,5,-0.168734,0.213812,-0.0904255,0.507471
+model x test_set,seed228_embonly | question,avg_dependency_distance,56,8,-0.845999,2.26302e-16,-0.761215,9.76949e-12
+model x test_set,seed228_embonly | question,avg_branching_factor,56,3,0.0125747,0.926713,0.11022,0.418701
+model x test_set,seed228_embonly | question,clauses_per_sentence,56,1,,,,
+model x test_set,seed228_embonly | question,verbs_per_sentence,56,1,,,,
+model x test_set,seed228_embonly | question,nps_per_sentence,56,4,-0.203643,0.132227,-0.137983,0.310513
+model x test_set,seed228_embonly | question,verb_noun_ratio,56,4,0.182159,0.17905,0.137983,0.310513
+model x test_set,seed228_embonly | question_recursion_depth2,sentence_length,56,3,-0.000980101,0.99428,-0.0305033,0.823404
+model x test_set,seed228_embonly | question_recursion_depth2,avg_dependency_distance,56,3,-0.000743839,0.995659,0.0305033,0.823404
+model x test_set,seed228_embonly | question_recursion_depth2,avg_branching_factor,56,3,-0.0059381,0.965355,-0.0298871,0.826916
+model x test_set,seed228_embonly | question_recursion_depth2,clauses_per_sentence,56,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth2,verbs_per_sentence,56,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth2,nps_per_sentence,56,3,0.000234389,0.998632,-0.0305033,0.823404
+model x test_set,seed228_embonly | question_recursion_depth2,verb_noun_ratio,56,3,-0.00190592,0.988877,0.0305033,0.823404
+model x test_set,seed228_embonly | question_recursion_depth3,sentence_length,112,3,-0.0535376,0.575047,-0.00785612,0.93448
+model x test_set,seed228_embonly | question_recursion_depth3,avg_dependency_distance,112,3,0.0487244,0.609933,0.00785612,0.93448
+model x test_set,seed228_embonly | question_recursion_depth3,avg_branching_factor,112,3,-0.0686116,0.472253,-0.0234143,0.80642
+model x test_set,seed228_embonly | question_recursion_depth3,clauses_per_sentence,112,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth3,verbs_per_sentence,112,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth3,nps_per_sentence,112,3,-0.0484533,0.611925,-0.00785612,0.93448
+model x test_set,seed228_embonly | question_recursion_depth3,verb_noun_ratio,112,3,0.0422162,0.658519,0.00785612,0.93448
+model x test_set,seed228_embonly | question_recursion_depth4,sentence_length,224,3,-0.00646108,0.923393,0.000317707,0.996227
+model x test_set,seed228_embonly | question_recursion_depth4,avg_dependency_distance,224,3,0.00667356,0.920882,-0.000317707,0.996227
+model x test_set,seed228_embonly | question_recursion_depth4,avg_branching_factor,224,3,-0.00337439,0.959946,0.00386062,0.954181
+model x test_set,seed228_embonly | question_recursion_depth4,clauses_per_sentence,224,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth4,verbs_per_sentence,224,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth4,nps_per_sentence,224,3,-0.00674576,0.920029,0.000317707,0.996227
+model x test_set,seed228_embonly | question_recursion_depth4,verb_noun_ratio,224,3,0.00693408,0.917804,-0.000317707,0.996227
+model x test_set,seed228_embonly | question_recursion_depth5,sentence_length,448,3,-0.0185468,0.695429,-0.0272887,0.564557
+model x test_set,seed228_embonly | question_recursion_depth5,avg_dependency_distance,448,3,0.0195516,0.679817,0.0272887,0.564557
+model x test_set,seed228_embonly | question_recursion_depth5,avg_branching_factor,448,3,-0.00357939,0.939777,-0.00883627,0.852045
+model x test_set,seed228_embonly | question_recursion_depth5,clauses_per_sentence,448,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth5,verbs_per_sentence,448,1,,,,
+model x test_set,seed228_embonly | question_recursion_depth5,nps_per_sentence,448,3,-0.0202342,0.669289,-0.0272887,0.564557
+model x test_set,seed228_embonly | question_recursion_depth5,verb_noun_ratio,448,3,0.0213744,0.651846,0.0272887,0.564557
+model x test_set,seed3_embonly | question_recursion_depth2,sentence_length,56,3,0.0901264,0.508882,0.125715,0.355895
+model x test_set,seed3_embonly | question_recursion_depth2,avg_dependency_distance,56,3,-0.0858687,0.529183,-0.125715,0.355895
+model x test_set,seed3_embonly | question_recursion_depth2,avg_branching_factor,56,3,0.0894686,0.511993,0.115855,0.395162
+model x test_set,seed3_embonly | question_recursion_depth2,clauses_per_sentence,56,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth2,verbs_per_sentence,56,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth2,nps_per_sentence,56,3,0.0873485,0.522082,0.125715,0.355895
+model x test_set,seed3_embonly | question_recursion_depth2,verb_noun_ratio,56,3,-0.08179,0.548999,-0.125715,0.355895
+model x test_set,seed3_embonly | question_recursion_depth3,sentence_length,112,3,0.144489,0.128522,0.128123,0.178214
+model x test_set,seed3_embonly | question_recursion_depth3,avg_dependency_distance,112,3,-0.149588,0.11544,-0.128123,0.178214
+model x test_set,seed3_embonly | question_recursion_depth3,avg_branching_factor,112,3,0.0904028,0.343158,0.0826813,0.386114
+model x test_set,seed3_embonly | question_recursion_depth3,clauses_per_sentence,112,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth3,verbs_per_sentence,112,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth3,nps_per_sentence,112,3,0.149814,0.114885,0.128123,0.178214
+model x test_set,seed3_embonly | question_recursion_depth3,verb_noun_ratio,112,3,-0.153584,0.105931,-0.128123,0.178214
+model x test_set,seed3_embonly | question_recursion_depth4,sentence_length,224,3,0.113595,0.0898647,0.111195,0.0969039
+model x test_set,seed3_embonly | question_recursion_depth4,avg_dependency_distance,224,3,-0.113455,0.0902621,-0.111195,0.0969039
+model x test_set,seed3_embonly | question_recursion_depth4,avg_branching_factor,224,3,0.0890273,0.184303,0.0977166,0.144896
+model x test_set,seed3_embonly | question_recursion_depth4,clauses_per_sentence,224,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth4,verbs_per_sentence,224,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth4,nps_per_sentence,224,3,0.113208,0.0909697,0.111195,0.0969039
+model x test_set,seed3_embonly | question_recursion_depth4,verb_noun_ratio,224,3,-0.111682,0.0954419,-0.111195,0.0969039
+model x test_set,seed3_embonly | question_recursion_depth5,sentence_length,448,3,0.0427665,0.366483,0.0315097,0.505899
+model x test_set,seed3_embonly | question_recursion_depth5,avg_dependency_distance,448,3,-0.0432117,0.361511,-0.0315097,0.505899
+model x test_set,seed3_embonly | question_recursion_depth5,avg_branching_factor,448,3,0.0272922,0.564507,0.017629,0.709802
+model x test_set,seed3_embonly | question_recursion_depth5,clauses_per_sentence,448,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth5,verbs_per_sentence,448,1,,,,
+model x test_set,seed3_embonly | question_recursion_depth5,nps_per_sentence,448,3,0.0434267,0.359124,0.0315097,0.505899
+model x test_set,seed3_embonly | question_recursion_depth5,verb_noun_ratio,448,3,-0.0435801,0.357428,-0.0315097,0.505899
+model x test_set,seed404_embonly | question_recursion_depth2,sentence_length,56,3,-0.110042,0.419459,-0.0804192,0.555738
+model x test_set,seed404_embonly | question_recursion_depth2,avg_dependency_distance,56,3,0.101236,0.45784,0.0804192,0.555738
+model x test_set,seed404_embonly | question_recursion_depth2,avg_branching_factor,56,3,-0.119913,0.3787,-0.0835004,0.540646
+model x test_set,seed404_embonly | question_recursion_depth2,clauses_per_sentence,56,1,,,,
+model x test_set,seed404_embonly | question_recursion_depth2,verbs_per_sentence,56,1,,,,
+model x test_set,seed404_embonly | question_recursion_depth2,nps_per_sentence,56,3,-0.104104,0.445136,-0.0804192,0.555738
+model x test_set,seed404_embonly | question_recursion_depth2,verb_noun_ratio,56,3,0.0938533,0.491444,0.0804192,0.555738
+model x test_set,seed404_embonly | question_recursion_depth3,sentence_length,112,3,-0.0483952,0.612353,-0.0780979,0.413078
+model x test_set,seed404_embonly | question_recursion_depth3,avg_dependency_distance,112,3,0.0482851,0.613163,0.0780979,0.413078
+model x test_set,seed404_embonly | question_recursion_depth3,avg_branching_factor,112,3,-0.0398043,0.676906,-0.0674692,0.479677
+model x test_set,seed404_embonly | question_recursion_depth3,clauses_per_sentence,112,1,,,,
+model x test_set,seed404_embonly | question_recursion_depth3,verbs_per_sentence,112,1,,,,
+model x test_set,seed404_embonly | question_recursion_depth3,nps_per_sentence,112,3,-0.0482646,0.613314,-0.0780979,0.413078
+model x test_set,seed404_embonly | question_recursion_depth3,verb_noun_ratio,112,3,0.0474566,0.619274,0.0780979,0.413078
+model x test_set,seed404_embonly | question_recursion_depth5,sentence_length,448,3,0.0457159,0.334332,0.0292594,0.536768
+model x test_set,seed404_embonly | question_recursion_depth5,avg_dependency_distance,448,3,-0.0456891,0.334616,-0.0292594,0.536768
+model x test_set,seed404_embonly | question_recursion_depth5,avg_branching_factor,448,3,0.0342885,0.469106,0.0159632,0.736151
+model x test_set,seed404_embonly | question_recursion_depth5,clauses_per_sentence,448,1,,,,
+model x test_set,seed404_embonly | question_recursion_depth5,verbs_per_sentence,448,1,,,,
+model x test_set,seed404_embonly | question_recursion_depth5,nps_per_sentence,448,3,0.0455538,0.33605,0.0292594,0.536768
+model x test_set,seed404_embonly | question_recursion_depth5,verb_noun_ratio,448,3,-0.0450527,0.341399,-0.0292594,0.536768
+model x test_set,seed4_embonly | question,sentence_length,56,5,-0.128819,0.344045,-0.121184,0.373634
+model x test_set,seed4_embonly | question,avg_dependency_distance,56,8,-0.878899,5.34444e-19,-0.755394,1.72436e-11
+model x test_set,seed4_embonly | question,avg_branching_factor,56,3,0.0352215,0.796632,0.0855372,0.530781
+model x test_set,seed4_embonly | question,clauses_per_sentence,56,1,,,,
+model x test_set,seed4_embonly | question,verbs_per_sentence,56,1,,,,
+model x test_set,seed4_embonly | question,nps_per_sentence,56,4,-0.161166,0.235373,-0.165078,0.224051
+model x test_set,seed4_embonly | question,verb_noun_ratio,56,4,0.14972,0.270743,0.165078,0.224051
+model,seed0_embonly,sentence_length,56,5,0.0119763,0.930191,-0.0376899,0.782716
+model,seed0_embonly,avg_dependency_distance,56,8,0.532414,2.40476e-05,0.353604,0.00750829
+model,seed0_embonly,avg_branching_factor,56,3,-0.057167,0.675587,-0.0715992,0.600008
+model,seed0_embonly,clauses_per_sentence,56,1,,,,
+model,seed0_embonly,verbs_per_sentence,56,1,,,,
+model,seed0_embonly,nps_per_sentence,56,4,0.027385,0.84121,-0.0288686,0.832728
+model,seed0_embonly,verb_noun_ratio,56,4,-0.0199596,0.883914,0.0288686,0.832728
+model,seed105_embonly,sentence_length,840,9,-0.590455,4.56905e-80,-0.437104,1.63802e-40
+model,seed105_embonly,avg_dependency_distance,840,12,-0.603569,1.66903e-84,-0.456326,1.95513e-44
+model,seed105_embonly,avg_branching_factor,840,9,-0.558948,3.38349e-70,-0.38489,4.74458e-31
+model,seed105_embonly,clauses_per_sentence,840,4,-0.633681,1.62782e-95,-0.487953,1.84451e-51
+model,seed105_embonly,verbs_per_sentence,840,4,-0.633681,1.62782e-95,-0.487953,1.84451e-51
+model,seed105_embonly,nps_per_sentence,840,6,-0.505993,8.25304e-56,-0.383251,8.84694e-31
+model,seed105_embonly,verb_noun_ratio,840,8,-0.205516,1.83448e-09,-0.210659,7.01689e-10
+model,seed228_embonly,sentence_length,896,13,-0.539911,6.21388e-69,-0.286022,2.48646e-18
+model,seed228_embonly,avg_dependency_distance,896,20,-0.550942,2.87926e-72,-0.294422,2.23719e-19
+model,seed228_embonly,avg_branching_factor,896,11,-0.568055,1.08077e-77,-0.264997,7.27619e-16
+model,seed228_embonly,clauses_per_sentence,896,5,-0.550874,3.0211e-72,-0.307777,4.11083e-21
+model,seed228_embonly,verbs_per_sentence,896,5,-0.550874,3.0211e-72,-0.307777,4.11083e-21
+model,seed228_embonly,nps_per_sentence,896,8,-0.504491,5.04819e-59,-0.272735,9.52943e-17
+model,seed228_embonly,verb_noun_ratio,896,10,-0.0983745,0.00320137,-0.127443,0.000130738
+model,seed3_embonly,sentence_length,840,9,-0.565799,2.97435e-72,-0.440471,3.5095e-41
+model,seed3_embonly,avg_dependency_distance,840,12,-0.62123,8.13267e-91,-0.508296,2.19934e-56
+model,seed3_embonly,avg_branching_factor,840,9,-0.512274,2.18821e-57,-0.383652,7.59626e-31
+model,seed3_embonly,clauses_per_sentence,840,4,-0.633252,2.38331e-95,-0.520489,1.6909e-59
+model,seed3_embonly,verbs_per_sentence,840,4,-0.633252,2.38331e-95,-0.520489,1.6909e-59
+model,seed3_embonly,nps_per_sentence,840,6,-0.46632,1.41344e-46,-0.369761,1.30581e-28
+model,seed3_embonly,verb_noun_ratio,840,8,-0.258921,2.46991e-14,-0.280575,1.16383e-16
+model,seed404_embonly,sentence_length,616,8,-0.262992,3.33164e-11,-0.236365,2.86986e-09
+model,seed404_embonly,avg_dependency_distance,616,9,-0.286009,4.62676e-13,-0.317537,6.75024e-16
+model,seed404_embonly,avg_branching_factor,616,8,-0.247804,4.50747e-10,-0.238623,2.00641e-09
+model,seed404_embonly,clauses_per_sentence,616,3,-0.287895,3.20077e-13,-0.340536,3.43945e-18
+model,seed404_embonly,verbs_per_sentence,616,3,-0.287895,3.20077e-13,-0.340536,3.43945e-18
+model,seed404_embonly,nps_per_sentence,616,6,-0.224404,1.80002e-08,-0.221609,2.72458e-08
+model,seed404_embonly,verb_noun_ratio,616,6,-0.12296,0.00223427,-0.16246,5.10189e-05
+model,seed4_embonly,sentence_length,56,5,-0.128819,0.344045,-0.121184,0.373634
+model,seed4_embonly,avg_dependency_distance,56,8,-0.878899,5.34444e-19,-0.755394,1.72436e-11
+model,seed4_embonly,avg_branching_factor,56,3,0.0352215,0.796632,0.0855372,0.530781
+model,seed4_embonly,clauses_per_sentence,56,1,,,,
+model,seed4_embonly,verbs_per_sentence,56,1,,,,
+model,seed4_embonly,nps_per_sentence,56,4,-0.161166,0.235373,-0.165078,0.224051
+model,seed4_embonly,verb_noun_ratio,56,4,0.14972,0.270743,0.165078,0.224051
+all,"all models, all test sets",sentence_length,3304,13,-0.385966,7.83828e-118,-0.316198,1.29023e-77
+all,"all models, all test sets",avg_dependency_distance,3304,20,-0.401995,1.43214e-128,-0.350395,4.69824e-96
+all,"all models, all test sets",avg_branching_factor,3304,11,-0.346876,4.77486e-94,-0.287399,7.38957e-64
+all,"all models, all test sets",clauses_per_sentence,3304,5,-0.404979,1.23e-130,-0.362378,4.38283e-103
+all,"all models, all test sets",verbs_per_sentence,3304,5,-0.404979,1.23e-130,-0.362378,4.38283e-103
+all,"all models, all test sets",nps_per_sentence,3304,8,-0.348605,4.96824e-95,-0.281563,2.9373e-61
+all,"all models, all test sets",verb_noun_ratio,3304,10,-0.108542,3.97158e-10,-0.171647,2.88891e-23

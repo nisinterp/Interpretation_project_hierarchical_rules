@@ -93,6 +93,14 @@ Interpretation_project_hierarchical_rules/
     ├── dependency_distance_from_tokens.py         # same calculation, standalone, for one tag string at a time
     ├── branching_factor_from_tokens.py            # average branching factor (mean dependents per head)
     └── sentence_counts_from_tokens.py             # clauses / verbs / NPs per sentence, verb/noun ratio
+
+complexity_accuracy_correlation/                   # self-contained: metrics x per-type accuracy correlations
+    ├── correlate_complexity_accuracy.py           # computes every metric per type and correlates it with accuracy
+    ├── *_from_tokens.py, add_avg_dependency_distance.py   # copies of the Complexity metrics/ scripts
+    ├── data/results_per_type/                      # per-type accuracy for 6 models (question.test + depth 2-5 sets)
+    ├── results/per_type_complexity_accuracy.csv    # one row per (model, test set, type): acc, n and every metric
+    ├── results/complexity_accuracy_correlations.csv # Pearson/Spearman r and p per model x test set, per model, pooled
+    └── README.md                                   # usage, findings, caveats
 ```
 
 ## Setup
