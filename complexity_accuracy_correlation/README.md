@@ -50,3 +50,31 @@ All metrics are computed on the declarative half of `type`, the part before
   show that accuracy drops as depth increases.
 - Types are not independent samples: many share most of their structure. Treat
   the p-values as descriptive.
+
+## All-seeds run (`results_allseeds_new_per_type.csv`)
+
+Input: `data/allseeds_new/results_allseeds_new_per_type.csv` (from
+jacoblvovski/jail_lexicon_attitude_study), with 36 seeds × 56 `question.test`
+constructions.
+
+```bash
+pip install openpyxl
+python3 correlate_allseeds.py data/allseeds_new/results_allseeds_new_per_type.csv results allseeds_new
+```
+
+| File | Contents |
+|---|---|
+| `results/allseeds_new_per_type_metrics.csv` | One row per (seed, construction): `n`, `acc` and every metric |
+| `results/allseeds_new_correlations.csv` | One row per (seed, metric): Pearson r and Spearman rho with p-values, across the 56 constructions |
+| `results/allseeds_new_correlations.xlsx` | Sheet 1 is the same as the correlations CSV. Each other sheet covers one metric and has one row per seed: r(metric, acc), r(sentence_length, acc) and `diff = r(sentence_length) − r(metric)`, for both Pearson and Spearman |
+
+Notes:
+- 14 seeds have the same accuracy on every construction (13 at 100%, 1 at
+  0%), so their correlations are undefined and left blank.
+- `clauses_per_sentence` and `verbs_per_sentence` are always 2 on
+  `question.test`, so their sheets are blank.
+- Of the 22 seeds with defined correlations, average dependency distance is
+  significantly negative (p < .05) for 14. Those are mostly seeds that
+  generalize (mean acc ≥ 0.75). It is significantly positive for 4 seeds that
+  do not generalize (mean acc ≤ 0.35). Sentence length, branching factor and
+  NP count show no consistent effect (median |r| < 0.1).
