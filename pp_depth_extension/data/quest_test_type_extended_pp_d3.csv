@@ -1,0 +1,837 @@
+,type,number,share,skeleton,rc,vp,pp_depth,pp_site,length,main_aux_index,rc_aux_index
+0,det n_s rel aux_s v_intrans aux_s v_intrans,100,0.01,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,0,,7,5,3
+1,det n_s prep det n_s rel aux_s v_intrans aux_s v_intrans,44,0.0044,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,1,S,10,8,6
+2,det n_s prep det n_p rel aux_s v_intrans aux_s v_intrans,56,0.0056,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,1,S,10,8,6
+3,det n_s prep det n_s prep det n_s rel aux_s v_intrans aux_s v_intrans,24,0.0024,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+4,det n_s prep det n_s prep det n_p rel aux_s v_intrans aux_s v_intrans,16,0.0016,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+5,det n_s prep det n_p prep det n_s rel aux_s v_intrans aux_s v_intrans,32,0.0032,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+6,det n_s prep det n_p prep det n_p rel aux_s v_intrans aux_s v_intrans,25,0.0025,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+7,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_intrans aux_s v_intrans,11,0.0011,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+8,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_intrans aux_s v_intrans,26,0.0026,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+9,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_intrans aux_s v_intrans,11,0.0011,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+10,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_intrans aux_s v_intrans,13,0.0013,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+11,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_intrans aux_s v_intrans,15,0.0015,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+12,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_intrans aux_s v_intrans,14,0.0014,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+13,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_intrans aux_s v_intrans,12,0.0012,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+14,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_intrans aux_s v_intrans,11,0.0011,S=s|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+15,det n_s rel aux_s v_intrans aux_s v_trans det n_s,95,0.0095,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,0,,9,5,3
+16,det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,24,0.0024,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,S,12,8,6
+17,det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,25,0.0025,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,S,12,8,6
+18,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s,28,0.0028,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,O,12,5,3
+19,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p,25,0.0025,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,O,12,5,3
+20,det n_s prep det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,14,0.0014,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+21,det n_s prep det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,7,0.0007,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+22,det n_s prep det n_p prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,15,0.0015,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+23,det n_s prep det n_p prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,12,0.0012,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+24,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s prep det n_s,14,0.0014,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+25,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s prep det n_p,18,0.0018,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+26,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p prep det n_s,11,0.0011,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+27,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p prep det n_p,19,0.0019,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+28,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,9,0.0009,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+29,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,8,0.0008,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+30,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,7,0.0007,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+31,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,9,0.0009,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+32,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,2,0.0002,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+33,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,6,0.0006,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+34,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_intrans aux_s v_trans det n_s,7,0.0007,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+35,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_intrans aux_s v_trans det n_s,4,0.0004,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+36,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s,8,0.0008,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+37,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p,7,0.0007,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+38,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s,4,0.0004,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+39,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p,2,0.0002,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+40,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s,3,0.0003,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+41,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p,6,0.0006,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+42,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s,12,0.0012,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+43,det n_s rel aux_s v_intrans aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p,7,0.0007,S=s|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+44,det n_s rel aux_s v_intrans aux_s v_trans det n_p,78,0.0078,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,0,,9,5,3
+45,det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,28,0.0028,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,S,12,8,6
+46,det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,20,0.002,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,S,12,8,6
+47,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s,13,0.0013,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,O,12,5,3
+48,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p,29,0.0029,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,O,12,5,3
+49,det n_s prep det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,9,0.0009,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+50,det n_s prep det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,9,0.0009,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+51,det n_s prep det n_p prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,10,0.001,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+52,det n_s prep det n_p prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,13,0.0013,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+53,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s prep det n_s,15,0.0015,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+54,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s prep det n_p,11,0.0011,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+55,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p prep det n_s,10,0.001,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+56,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p prep det n_p,9,0.0009,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+57,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,6,0.0006,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+58,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,10,0.001,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+59,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,5,0.0005,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+60,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,5,0.0005,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+61,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,5,0.0005,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+62,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,4,0.0004,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+63,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_intrans aux_s v_trans det n_p,10,0.001,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+64,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_intrans aux_s v_trans det n_p,11,0.0011,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+65,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s,10,0.001,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+66,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p,7,0.0007,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+67,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s,6,0.0006,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+68,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p,8,0.0008,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+69,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s,8,0.0008,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+70,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p,14,0.0014,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+71,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s,10,0.001,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+72,det n_s rel aux_s v_intrans aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p,7,0.0007,S=s|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+73,det n_s rel aux_s v_trans det n_s aux_s v_intrans,123,0.0123,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,0,,9,7,3
+74,det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,20,0.002,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,S,12,10,6
+75,det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,24,0.0024,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,S,12,10,6
+76,det n_s rel aux_s v_trans det n_s prep det n_s aux_s v_intrans,26,0.0026,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,R,12,10,3
+77,det n_s rel aux_s v_trans det n_s prep det n_p aux_s v_intrans,24,0.0024,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,R,12,10,3
+78,det n_s prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,11,0.0011,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+79,det n_s prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,18,0.0018,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+80,det n_s prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,10,0.001,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+81,det n_s prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+82,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+83,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p aux_s v_intrans,17,0.0017,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+84,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s aux_s v_intrans,11,0.0011,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+85,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+86,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,7,0.0007,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+87,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+88,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,8,0.0008,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+89,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,7,0.0007,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+90,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+91,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+92,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_intrans,8,0.0008,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+93,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+94,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+95,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p aux_s v_intrans,5,0.0005,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+96,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+97,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+98,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+99,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p aux_s v_intrans,10,0.001,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+100,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+101,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p aux_s v_intrans,3,0.0003,S=s|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+102,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,90,0.009,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,0,,11,7,3
+103,det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,21,0.0021,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+104,det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,20,0.002,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+105,det n_s rel aux_s v_trans det n_s prep det n_s aux_s v_trans det n_s,19,0.0019,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+106,det n_s rel aux_s v_trans det n_s prep det n_p aux_s v_trans det n_s,14,0.0014,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+107,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s,15,0.0015,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+108,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p,12,0.0012,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+109,det n_s prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+110,det n_s prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,11,0.0011,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+111,det n_s prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+112,det n_s prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+113,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+114,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p aux_s v_trans det n_s,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+115,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s aux_s v_trans det n_s,13,0.0013,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+116,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p aux_s v_trans det n_s,8,0.0008,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+117,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s prep det n_s,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+118,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s prep det n_p,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+119,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p prep det n_s,12,0.0012,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+120,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p prep det n_p,15,0.0015,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+121,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+122,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,12,0.0012,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+123,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+124,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+125,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+126,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+127,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s,2,0.0002,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+128,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+129,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s aux_s v_trans det n_s,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+130,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p aux_s v_trans det n_s,2,0.0002,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+131,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+132,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+133,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+134,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p aux_s v_trans det n_s,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+135,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+136,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p aux_s v_trans det n_s,8,0.0008,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+137,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+138,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p,3,0.0003,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+139,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+140,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p,3,0.0003,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+141,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+142,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+143,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s,3,0.0003,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+144,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p,3,0.0003,S=s|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+145,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,102,0.0102,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,0,,11,7,3
+146,det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,17,0.0017,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+147,det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,18,0.0018,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+148,det n_s rel aux_s v_trans det n_s prep det n_s aux_s v_trans det n_p,18,0.0018,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+149,det n_s rel aux_s v_trans det n_s prep det n_p aux_s v_trans det n_p,15,0.0015,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+150,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s,20,0.002,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+151,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p,11,0.0011,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+152,det n_s prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+153,det n_s prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,10,0.001,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+154,det n_s prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+155,det n_s prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,10,0.001,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+156,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s aux_s v_trans det n_p,10,0.001,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+157,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+158,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s aux_s v_trans det n_p,15,0.0015,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+159,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p aux_s v_trans det n_p,10,0.001,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+160,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s prep det n_s,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+161,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s prep det n_p,12,0.0012,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+162,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p prep det n_s,8,0.0008,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+163,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p prep det n_p,11,0.0011,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+164,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+165,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+166,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+167,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+168,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+169,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+170,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+171,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_trans det n_s aux_s v_trans det n_p,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+172,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+173,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+174,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+175,det n_s rel aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p aux_s v_trans det n_p,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+176,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+177,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p aux_s v_trans det n_p,3,0.0003,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+178,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s aux_s v_trans det n_p,8,0.0008,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+179,det n_s rel aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p aux_s v_trans det n_p,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+180,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s,1,0.0001,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+181,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+182,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s,9,0.0009,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+183,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p,4,0.0004,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+184,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s,6,0.0006,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+185,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p,7,0.0007,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+186,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s,2,0.0002,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+187,det n_s rel aux_s v_trans det n_s aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p,3,0.0003,S=s|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+188,det n_s rel aux_s v_trans det n_p aux_s v_intrans,114,0.0114,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,0,,9,7,3
+189,det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,20,0.002,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,S,12,10,6
+190,det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,24,0.0024,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,S,12,10,6
+191,det n_s rel aux_s v_trans det n_p prep det n_s aux_s v_intrans,28,0.0028,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,R,12,10,3
+192,det n_s rel aux_s v_trans det n_p prep det n_p aux_s v_intrans,26,0.0026,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,R,12,10,3
+193,det n_s prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+194,det n_s prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,20,0.002,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+195,det n_s prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,15,0.0015,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+196,det n_s prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+197,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s aux_s v_intrans,17,0.0017,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+198,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p aux_s v_intrans,18,0.0018,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+199,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+200,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p aux_s v_intrans,12,0.0012,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+201,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+202,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,8,0.0008,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+203,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,7,0.0007,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+204,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+205,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+206,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+207,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_intrans,7,0.0007,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+208,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_intrans,5,0.0005,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+209,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s aux_s v_intrans,5,0.0005,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+210,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p aux_s v_intrans,8,0.0008,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+211,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+212,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p aux_s v_intrans,11,0.0011,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+213,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s aux_s v_intrans,9,0.0009,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+214,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p aux_s v_intrans,10,0.001,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+215,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s aux_s v_intrans,6,0.0006,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+216,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p aux_s v_intrans,8,0.0008,S=s|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+217,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,101,0.0101,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,0,,11,7,3
+218,det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,21,0.0021,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+219,det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,10,0.001,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+220,det n_s rel aux_s v_trans det n_p prep det n_s aux_s v_trans det n_s,15,0.0015,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+221,det n_s rel aux_s v_trans det n_p prep det n_p aux_s v_trans det n_s,15,0.0015,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+222,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s,17,0.0017,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+223,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p,19,0.0019,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+224,det n_s prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,9,0.0009,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+225,det n_s prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,11,0.0011,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+226,det n_s prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+227,det n_s prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+228,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s aux_s v_trans det n_s,12,0.0012,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+229,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+230,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s aux_s v_trans det n_s,10,0.001,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+231,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p aux_s v_trans det n_s,9,0.0009,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+232,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s prep det n_s,12,0.0012,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+233,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s prep det n_p,12,0.0012,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+234,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p prep det n_s,10,0.001,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+235,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p prep det n_p,14,0.0014,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+236,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+237,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+238,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+239,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+240,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+241,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,2,0.0002,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+242,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+243,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+244,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s aux_s v_trans det n_s,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+245,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p aux_s v_trans det n_s,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+246,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+247,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p aux_s v_trans det n_s,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+248,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s aux_s v_trans det n_s,2,0.0002,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+249,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p aux_s v_trans det n_s,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+250,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s aux_s v_trans det n_s,2,0.0002,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+251,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p aux_s v_trans det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+252,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+253,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p,3,0.0003,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+254,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+255,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+256,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+257,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+258,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+259,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+260,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,93,0.0093,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,0,,11,7,3
+261,det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,21,0.0021,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+262,det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,25,0.0025,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+263,det n_s rel aux_s v_trans det n_p prep det n_s aux_s v_trans det n_p,20,0.002,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+264,det n_s rel aux_s v_trans det n_p prep det n_p aux_s v_trans det n_p,18,0.0018,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+265,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s,17,0.0017,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+266,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p,12,0.0012,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+267,det n_s prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+268,det n_s prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,11,0.0011,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+269,det n_s prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,14,0.0014,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+270,det n_s prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+271,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+272,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+273,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s aux_s v_trans det n_p,13,0.0013,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+274,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p aux_s v_trans det n_p,13,0.0013,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+275,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s prep det n_s,15,0.0015,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+276,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s prep det n_p,15,0.0015,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+277,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p prep det n_s,10,0.001,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+278,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p prep det n_p,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+279,det n_s prep det n_s prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,1,0.0001,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+280,det n_s prep det n_s prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+281,det n_s prep det n_s prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,7,0.0007,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+282,det n_s prep det n_s prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+283,det n_s prep det n_p prep det n_s prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,3,0.0003,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+284,det n_s prep det n_p prep det n_s prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,3,0.0003,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+285,det n_s prep det n_p prep det n_p prep det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+286,det n_s prep det n_p prep det n_p prep det n_p rel aux_s v_trans det n_p aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+287,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s aux_s v_trans det n_p,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+288,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p aux_s v_trans det n_p,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+289,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+290,det n_s rel aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+291,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s aux_s v_trans det n_p,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+292,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p aux_s v_trans det n_p,9,0.0009,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+293,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+294,det n_s rel aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p aux_s v_trans det n_p,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+295,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s,2,0.0002,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+296,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+297,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s,6,0.0006,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+298,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p,8,0.0008,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+299,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s,5,0.0005,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+300,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p,2,0.0002,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+301,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s,4,0.0004,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+302,det n_s rel aux_s v_trans det n_p aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p,2,0.0002,S=s|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+303,det n_s rel det n_p aux_p v_trans aux_s v_intrans,85,0.0085,S=s|rc=orc:R=p|vp=intrans,orc,intrans,0,,9,7,5
+304,det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,29,0.0029,S=s|rc=orc:R=p|vp=intrans,orc,intrans,1,S,12,10,8
+305,det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,29,0.0029,S=s|rc=orc:R=p|vp=intrans,orc,intrans,1,S,12,10,8
+306,det n_s rel det n_p prep det n_s aux_p v_trans aux_s v_intrans,29,0.0029,S=s|rc=orc:R=p|vp=intrans,orc,intrans,1,R,12,10,8
+307,det n_s rel det n_p prep det n_p aux_p v_trans aux_s v_intrans,34,0.0034,S=s|rc=orc:R=p|vp=intrans,orc,intrans,1,R,12,10,8
+308,det n_s prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,13,0.0013,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,S,15,13,11
+309,det n_s prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,14,0.0014,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,S,15,13,11
+310,det n_s prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,8,0.0008,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,S,15,13,11
+311,det n_s prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,13,0.0013,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,S,15,13,11
+312,det n_s rel det n_p prep det n_s prep det n_s aux_p v_trans aux_s v_intrans,13,0.0013,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,R,15,13,11
+313,det n_s rel det n_p prep det n_s prep det n_p aux_p v_trans aux_s v_intrans,12,0.0012,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,R,15,13,11
+314,det n_s rel det n_p prep det n_p prep det n_s aux_p v_trans aux_s v_intrans,8,0.0008,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,R,15,13,11
+315,det n_s rel det n_p prep det n_p prep det n_p aux_p v_trans aux_s v_intrans,13,0.0013,S=s|rc=orc:R=p|vp=intrans,orc,intrans,2,R,15,13,11
+316,det n_s prep det n_s prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,4,0.0004,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+317,det n_s prep det n_s prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,5,0.0005,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+318,det n_s prep det n_s prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,8,0.0008,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+319,det n_s prep det n_s prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,10,0.001,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+320,det n_s prep det n_p prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,11,0.0011,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+321,det n_s prep det n_p prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,11,0.0011,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+322,det n_s prep det n_p prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_intrans,4,0.0004,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+323,det n_s prep det n_p prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_intrans,8,0.0008,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,S,18,16,14
+324,det n_s rel det n_p prep det n_s prep det n_s prep det n_s aux_p v_trans aux_s v_intrans,7,0.0007,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+325,det n_s rel det n_p prep det n_s prep det n_s prep det n_p aux_p v_trans aux_s v_intrans,8,0.0008,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+326,det n_s rel det n_p prep det n_s prep det n_p prep det n_s aux_p v_trans aux_s v_intrans,12,0.0012,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+327,det n_s rel det n_p prep det n_s prep det n_p prep det n_p aux_p v_trans aux_s v_intrans,5,0.0005,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+328,det n_s rel det n_p prep det n_p prep det n_s prep det n_s aux_p v_trans aux_s v_intrans,4,0.0004,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+329,det n_s rel det n_p prep det n_p prep det n_s prep det n_p aux_p v_trans aux_s v_intrans,4,0.0004,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+330,det n_s rel det n_p prep det n_p prep det n_p prep det n_s aux_p v_trans aux_s v_intrans,7,0.0007,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+331,det n_s rel det n_p prep det n_p prep det n_p prep det n_p aux_p v_trans aux_s v_intrans,7,0.0007,S=s|rc=orc:R=p|vp=intrans,orc,intrans,3,R,18,16,14
+332,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,104,0.0104,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,0,,11,7,5
+333,det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,15,0.0015,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,1,S,14,10,8
+334,det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,20,0.002,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,1,S,14,10,8
+335,det n_s rel det n_p prep det n_s aux_p v_trans aux_s v_trans det n_s,14,0.0014,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,1,R,14,10,8
+336,det n_s rel det n_p prep det n_p aux_p v_trans aux_s v_trans det n_s,20,0.002,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,1,R,14,10,8
+337,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s,12,0.0012,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,1,O,14,7,5
+338,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p,16,0.0016,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,1,O,14,7,5
+339,det n_s prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,12,0.0012,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,S,17,13,11
+340,det n_s prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,S,17,13,11
+341,det n_s prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,S,17,13,11
+342,det n_s prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,9,0.0009,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,S,17,13,11
+343,det n_s rel det n_p prep det n_s prep det n_s aux_p v_trans aux_s v_trans det n_s,10,0.001,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,R,17,13,11
+344,det n_s rel det n_p prep det n_s prep det n_p aux_p v_trans aux_s v_trans det n_s,10,0.001,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,R,17,13,11
+345,det n_s rel det n_p prep det n_p prep det n_s aux_p v_trans aux_s v_trans det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,R,17,13,11
+346,det n_s rel det n_p prep det n_p prep det n_p aux_p v_trans aux_s v_trans det n_s,13,0.0013,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,R,17,13,11
+347,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s prep det n_s,13,0.0013,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,O,17,7,5
+348,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s prep det n_p,10,0.001,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,O,17,7,5
+349,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p prep det n_s,9,0.0009,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,O,17,7,5
+350,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p prep det n_p,9,0.0009,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,2,O,17,7,5
+351,det n_s prep det n_s prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+352,det n_s prep det n_s prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+353,det n_s prep det n_s prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+354,det n_s prep det n_s prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+355,det n_s prep det n_p prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+356,det n_s prep det n_p prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+357,det n_s prep det n_p prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+358,det n_s prep det n_p prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_s,6,0.0006,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,S,20,16,14
+359,det n_s rel det n_p prep det n_s prep det n_s prep det n_s aux_p v_trans aux_s v_trans det n_s,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+360,det n_s rel det n_p prep det n_s prep det n_s prep det n_p aux_p v_trans aux_s v_trans det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+361,det n_s rel det n_p prep det n_s prep det n_p prep det n_s aux_p v_trans aux_s v_trans det n_s,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+362,det n_s rel det n_p prep det n_s prep det n_p prep det n_p aux_p v_trans aux_s v_trans det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+363,det n_s rel det n_p prep det n_p prep det n_s prep det n_s aux_p v_trans aux_s v_trans det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+364,det n_s rel det n_p prep det n_p prep det n_s prep det n_p aux_p v_trans aux_s v_trans det n_s,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+365,det n_s rel det n_p prep det n_p prep det n_p prep det n_s aux_p v_trans aux_s v_trans det n_s,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+366,det n_s rel det n_p prep det n_p prep det n_p prep det n_p aux_p v_trans aux_s v_trans det n_s,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,R,20,16,14
+367,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s prep det n_s prep det n_s,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+368,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s prep det n_s prep det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+369,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s prep det n_p prep det n_s,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+370,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_s prep det n_p prep det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+371,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p prep det n_s prep det n_s,6,0.0006,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+372,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p prep det n_s prep det n_p,6,0.0006,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+373,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p prep det n_p prep det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+374,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_s prep det n_p prep det n_p prep det n_p,6,0.0006,S=s|rc=orc:R=p|vp=trans:O=s,orc,trans,3,O,20,7,5
+375,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,81,0.0081,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,0,,11,7,5
+376,det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,21,0.0021,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,1,S,14,10,8
+377,det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,15,0.0015,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,1,S,14,10,8
+378,det n_s rel det n_p prep det n_s aux_p v_trans aux_s v_trans det n_p,11,0.0011,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,1,R,14,10,8
+379,det n_s rel det n_p prep det n_p aux_p v_trans aux_s v_trans det n_p,24,0.0024,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,1,R,14,10,8
+380,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s,13,0.0013,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,1,O,14,7,5
+381,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p,16,0.0016,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,1,O,14,7,5
+382,det n_s prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,13,0.0013,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,S,17,13,11
+383,det n_s prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,14,0.0014,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,S,17,13,11
+384,det n_s prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,S,17,13,11
+385,det n_s prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,9,0.0009,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,S,17,13,11
+386,det n_s rel det n_p prep det n_s prep det n_s aux_p v_trans aux_s v_trans det n_p,11,0.0011,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,R,17,13,11
+387,det n_s rel det n_p prep det n_s prep det n_p aux_p v_trans aux_s v_trans det n_p,11,0.0011,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,R,17,13,11
+388,det n_s rel det n_p prep det n_p prep det n_s aux_p v_trans aux_s v_trans det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,R,17,13,11
+389,det n_s rel det n_p prep det n_p prep det n_p aux_p v_trans aux_s v_trans det n_p,9,0.0009,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,R,17,13,11
+390,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s prep det n_s,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,O,17,7,5
+391,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s prep det n_p,10,0.001,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,O,17,7,5
+392,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p prep det n_s,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,O,17,7,5
+393,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p prep det n_p,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,2,O,17,7,5
+394,det n_s prep det n_s prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+395,det n_s prep det n_s prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+396,det n_s prep det n_s prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,1,0.0001,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+397,det n_s prep det n_s prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+398,det n_s prep det n_p prep det n_s prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,8,0.0008,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+399,det n_s prep det n_p prep det n_s prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+400,det n_s prep det n_p prep det n_p prep det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p,2,0.0002,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+401,det n_s prep det n_p prep det n_p prep det n_p rel det n_p aux_p v_trans aux_s v_trans det n_p,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,S,20,16,14
+402,det n_s rel det n_p prep det n_s prep det n_s prep det n_s aux_p v_trans aux_s v_trans det n_p,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+403,det n_s rel det n_p prep det n_s prep det n_s prep det n_p aux_p v_trans aux_s v_trans det n_p,6,0.0006,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+404,det n_s rel det n_p prep det n_s prep det n_p prep det n_s aux_p v_trans aux_s v_trans det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+405,det n_s rel det n_p prep det n_s prep det n_p prep det n_p aux_p v_trans aux_s v_trans det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+406,det n_s rel det n_p prep det n_p prep det n_s prep det n_s aux_p v_trans aux_s v_trans det n_p,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+407,det n_s rel det n_p prep det n_p prep det n_s prep det n_p aux_p v_trans aux_s v_trans det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+408,det n_s rel det n_p prep det n_p prep det n_p prep det n_s aux_p v_trans aux_s v_trans det n_p,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+409,det n_s rel det n_p prep det n_p prep det n_p prep det n_p aux_p v_trans aux_s v_trans det n_p,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,R,20,16,14
+410,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s prep det n_s prep det n_s,5,0.0005,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+411,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s prep det n_s prep det n_p,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+412,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s prep det n_p prep det n_s,7,0.0007,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+413,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_s prep det n_p prep det n_p,4,0.0004,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+414,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p prep det n_s prep det n_s,6,0.0006,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+415,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p prep det n_s prep det n_p,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+416,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p prep det n_p prep det n_s,3,0.0003,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+417,det n_s rel det n_p aux_p v_trans aux_s v_trans det n_p prep det n_p prep det n_p prep det n_p,2,0.0002,S=s|rc=orc:R=p|vp=trans:O=p,orc,trans,3,O,20,7,5
+418,det n_p rel aux_p v_intrans aux_p v_intrans,95,0.0095,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,0,,7,5,3
+419,det n_p prep det n_s rel aux_p v_intrans aux_p v_intrans,51,0.0051,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,1,S,10,8,6
+420,det n_p prep det n_p rel aux_p v_intrans aux_p v_intrans,47,0.0047,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,1,S,10,8,6
+421,det n_p prep det n_s prep det n_s rel aux_p v_intrans aux_p v_intrans,22,0.0022,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+422,det n_p prep det n_s prep det n_p rel aux_p v_intrans aux_p v_intrans,19,0.0019,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+423,det n_p prep det n_p prep det n_s rel aux_p v_intrans aux_p v_intrans,28,0.0028,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+424,det n_p prep det n_p prep det n_p rel aux_p v_intrans aux_p v_intrans,26,0.0026,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,2,S,13,11,9
+425,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_intrans aux_p v_intrans,14,0.0014,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+426,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_intrans aux_p v_intrans,12,0.0012,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+427,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_intrans aux_p v_intrans,16,0.0016,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+428,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_intrans aux_p v_intrans,12,0.0012,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+429,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_intrans aux_p v_intrans,8,0.0008,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+430,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_intrans aux_p v_intrans,17,0.0017,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+431,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_intrans aux_p v_intrans,15,0.0015,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+432,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_intrans aux_p v_intrans,13,0.0013,S=p|rc=src_intrans|vp=intrans,src_intrans,intrans,3,S,16,14,12
+433,det n_p rel aux_p v_intrans aux_p v_trans det n_s,93,0.0093,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,0,,9,5,3
+434,det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,24,0.0024,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,S,12,8,6
+435,det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,27,0.0027,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,S,12,8,6
+436,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s,23,0.0023,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,O,12,5,3
+437,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p,25,0.0025,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,1,O,12,5,3
+438,det n_p prep det n_s prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,14,0.0014,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+439,det n_p prep det n_s prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,14,0.0014,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+440,det n_p prep det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,14,0.0014,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+441,det n_p prep det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,15,0.0015,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,S,15,11,9
+442,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s prep det n_s,22,0.0022,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+443,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s prep det n_p,9,0.0009,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+444,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p prep det n_s,11,0.0011,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+445,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p prep det n_p,12,0.0012,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,2,O,15,5,3
+446,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,10,0.001,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+447,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,8,0.0008,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+448,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,9,0.0009,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+449,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,5,0.0005,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+450,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,3,0.0003,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+451,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,9,0.0009,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+452,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_s,12,0.0012,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+453,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_s,5,0.0005,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,S,18,14,12
+454,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s,4,0.0004,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+455,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p,9,0.0009,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+456,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s,10,0.001,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+457,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p,4,0.0004,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+458,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s,4,0.0004,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+459,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p,10,0.001,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+460,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s,3,0.0003,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+461,det n_p rel aux_p v_intrans aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p,6,0.0006,S=p|rc=src_intrans|vp=trans:O=s,src_intrans,trans,3,O,18,5,3
+462,det n_p rel aux_p v_intrans aux_p v_trans det n_p,102,0.0102,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,0,,9,5,3
+463,det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,23,0.0023,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,S,12,8,6
+464,det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,28,0.0028,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,S,12,8,6
+465,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s,23,0.0023,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,O,12,5,3
+466,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p,24,0.0024,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,1,O,12,5,3
+467,det n_p prep det n_s prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,9,0.0009,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+468,det n_p prep det n_s prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,13,0.0013,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+469,det n_p prep det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,9,0.0009,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+470,det n_p prep det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,11,0.0011,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,S,15,11,9
+471,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s prep det n_s,20,0.002,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+472,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s prep det n_p,11,0.0011,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+473,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p prep det n_s,15,0.0015,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+474,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p prep det n_p,10,0.001,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,2,O,15,5,3
+475,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,8,0.0008,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+476,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,4,0.0004,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+477,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,7,0.0007,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+478,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,7,0.0007,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+479,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,8,0.0008,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+480,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,2,0.0002,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+481,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_intrans aux_p v_trans det n_p,9,0.0009,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+482,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_intrans aux_p v_trans det n_p,10,0.001,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,S,18,14,12
+483,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s,5,0.0005,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+484,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p,10,0.001,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+485,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s,11,0.0011,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+486,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p,10,0.001,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+487,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s,5,0.0005,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+488,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p,9,0.0009,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+489,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s,7,0.0007,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+490,det n_p rel aux_p v_intrans aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p,5,0.0005,S=p|rc=src_intrans|vp=trans:O=p,src_intrans,trans,3,O,18,5,3
+491,det n_p rel aux_p v_trans det n_s aux_p v_intrans,79,0.0079,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,0,,9,7,3
+492,det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,24,0.0024,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,S,12,10,6
+493,det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,29,0.0029,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,S,12,10,6
+494,det n_p rel aux_p v_trans det n_s prep det n_s aux_p v_intrans,22,0.0022,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,R,12,10,3
+495,det n_p rel aux_p v_trans det n_s prep det n_p aux_p v_intrans,34,0.0034,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,1,R,12,10,3
+496,det n_p prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,12,0.0012,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+497,det n_p prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,11,0.0011,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+498,det n_p prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,19,0.0019,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+499,det n_p prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,14,0.0014,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,S,15,13,9
+500,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s aux_p v_intrans,12,0.0012,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+501,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p aux_p v_intrans,15,0.0015,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+502,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s aux_p v_intrans,11,0.0011,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+503,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p aux_p v_intrans,18,0.0018,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,2,R,15,13,3
+504,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,4,0.0004,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+505,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+506,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,7,0.0007,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+507,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+508,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,10,0.001,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+509,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+510,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_intrans,5,0.0005,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+511,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_intrans,8,0.0008,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,S,18,16,12
+512,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+513,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p aux_p v_intrans,8,0.0008,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+514,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s aux_p v_intrans,8,0.0008,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+515,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p aux_p v_intrans,7,0.0007,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+516,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s aux_p v_intrans,4,0.0004,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+517,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p aux_p v_intrans,12,0.0012,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+518,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s aux_p v_intrans,7,0.0007,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+519,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p aux_p v_intrans,11,0.0011,S=p|rc=src_trans:R=s|vp=intrans,src_trans,intrans,3,R,18,16,3
+520,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,92,0.0092,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,0,,11,7,3
+521,det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,18,0.0018,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+522,det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,10,0.001,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+523,det n_p rel aux_p v_trans det n_s prep det n_s aux_p v_trans det n_s,17,0.0017,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+524,det n_p rel aux_p v_trans det n_s prep det n_p aux_p v_trans det n_s,16,0.0016,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+525,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s,13,0.0013,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+526,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p,14,0.0014,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+527,det n_p prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,9,0.0009,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+528,det n_p prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,12,0.0012,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+529,det n_p prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,15,0.0015,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+530,det n_p prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+531,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s aux_p v_trans det n_s,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+532,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p aux_p v_trans det n_s,9,0.0009,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+533,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+534,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p aux_p v_trans det n_s,11,0.0011,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+535,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s prep det n_s,11,0.0011,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+536,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s prep det n_p,8,0.0008,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+537,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p prep det n_s,13,0.0013,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+538,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p prep det n_p,10,0.001,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+539,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+540,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,2,0.0002,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+541,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+542,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+543,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,9,0.0009,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+544,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+545,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+546,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+547,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+548,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+549,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+550,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p aux_p v_trans det n_s,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+551,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s aux_p v_trans det n_s,2,0.0002,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+552,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p aux_p v_trans det n_s,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+553,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s aux_p v_trans det n_s,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+554,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+555,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+556,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+557,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s,9,0.0009,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+558,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+559,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+560,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+561,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+562,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+563,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,110,0.011,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,0,,11,7,3
+564,det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,14,0.0014,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+565,det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,16,0.0016,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+566,det n_p rel aux_p v_trans det n_s prep det n_s aux_p v_trans det n_p,12,0.0012,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+567,det n_p rel aux_p v_trans det n_s prep det n_p aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+568,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s,13,0.0013,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+569,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p,21,0.0021,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+570,det n_p prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+571,det n_p prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,13,0.0013,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+572,det n_p prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+573,det n_p prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,12,0.0012,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+574,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+575,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p aux_p v_trans det n_p,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+576,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s aux_p v_trans det n_p,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+577,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+578,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s prep det n_s,9,0.0009,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+579,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s prep det n_p,7,0.0007,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+580,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p prep det n_s,8,0.0008,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+581,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p prep det n_p,10,0.001,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+582,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+583,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+584,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+585,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+586,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+587,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+588,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_trans det n_s aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+589,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+590,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+591,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p aux_p v_trans det n_p,2,0.0002,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+592,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+593,det n_p rel aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+594,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+595,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+596,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+597,det n_p rel aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+598,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s,3,0.0003,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+599,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+600,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+601,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p,4,0.0004,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+602,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+603,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p,5,0.0005,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+604,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s,2,0.0002,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+605,det n_p rel aux_p v_trans det n_s aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p,6,0.0006,S=p|rc=src_trans:R=s|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+606,det n_p rel aux_p v_trans det n_p aux_p v_intrans,94,0.0094,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,0,,9,7,3
+607,det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,25,0.0025,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,S,12,10,6
+608,det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,24,0.0024,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,S,12,10,6
+609,det n_p rel aux_p v_trans det n_p prep det n_s aux_p v_intrans,25,0.0025,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,R,12,10,3
+610,det n_p rel aux_p v_trans det n_p prep det n_p aux_p v_intrans,18,0.0018,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,1,R,12,10,3
+611,det n_p prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,8,0.0008,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+612,det n_p prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,10,0.001,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+613,det n_p prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,11,0.0011,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+614,det n_p prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,11,0.0011,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,S,15,13,9
+615,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s aux_p v_intrans,18,0.0018,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+616,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p aux_p v_intrans,16,0.0016,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+617,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s aux_p v_intrans,7,0.0007,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+618,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p aux_p v_intrans,22,0.0022,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,2,R,15,13,3
+619,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,4,0.0004,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+620,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,9,0.0009,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+621,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,4,0.0004,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+622,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+623,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+624,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,10,0.001,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+625,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_intrans,2,0.0002,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+626,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_intrans,9,0.0009,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,S,18,16,12
+627,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s aux_p v_intrans,7,0.0007,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+628,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p aux_p v_intrans,12,0.0012,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+629,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s aux_p v_intrans,9,0.0009,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+630,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p aux_p v_intrans,4,0.0004,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+631,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s aux_p v_intrans,4,0.0004,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+632,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p aux_p v_intrans,5,0.0005,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+633,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s aux_p v_intrans,8,0.0008,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+634,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p aux_p v_intrans,6,0.0006,S=p|rc=src_trans:R=p|vp=intrans,src_trans,intrans,3,R,18,16,3
+635,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,102,0.0102,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,0,,11,7,3
+636,det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,11,0.0011,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+637,det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,19,0.0019,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,S,14,10,6
+638,det n_p rel aux_p v_trans det n_p prep det n_s aux_p v_trans det n_s,21,0.0021,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+639,det n_p rel aux_p v_trans det n_p prep det n_p aux_p v_trans det n_s,23,0.0023,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,R,14,10,3
+640,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s,17,0.0017,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+641,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p,10,0.001,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,1,O,14,7,3
+642,det n_p prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,11,0.0011,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+643,det n_p prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+644,det n_p prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+645,det n_p prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,S,17,13,9
+646,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s aux_p v_trans det n_s,12,0.0012,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+647,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+648,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s aux_p v_trans det n_s,9,0.0009,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+649,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p aux_p v_trans det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,R,17,13,3
+650,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s prep det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+651,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s prep det n_p,10,0.001,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+652,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p prep det n_s,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+653,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p prep det n_p,10,0.001,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,2,O,17,7,3
+654,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+655,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,2,0.0002,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+656,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+657,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+658,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+659,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+660,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+661,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,S,20,16,12
+662,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+663,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+664,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s aux_p v_trans det n_s,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+665,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+666,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+667,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p aux_p v_trans det n_s,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+668,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s aux_p v_trans det n_s,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+669,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p aux_p v_trans det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,R,20,16,3
+670,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+671,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p,2,0.0002,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+672,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+673,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+674,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+675,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+676,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+677,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=s,src_trans,trans,3,O,20,7,3
+678,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,97,0.0097,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,0,,11,7,3
+679,det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,20,0.002,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+680,det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,14,0.0014,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,S,14,10,6
+681,det n_p rel aux_p v_trans det n_p prep det n_s aux_p v_trans det n_p,18,0.0018,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+682,det n_p rel aux_p v_trans det n_p prep det n_p aux_p v_trans det n_p,15,0.0015,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,R,14,10,3
+683,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s,12,0.0012,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+684,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p,14,0.0014,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,1,O,14,7,3
+685,det n_p prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+686,det n_p prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,10,0.001,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+687,det n_p prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,10,0.001,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+688,det n_p prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,S,17,13,9
+689,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+690,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+691,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+692,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p aux_p v_trans det n_p,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,R,17,13,3
+693,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s prep det n_s,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+694,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s prep det n_p,15,0.0015,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+695,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p prep det n_s,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+696,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p prep det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,2,O,17,7,3
+697,det n_p prep det n_s prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+698,det n_p prep det n_s prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+699,det n_p prep det n_s prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+700,det n_p prep det n_s prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+701,det n_p prep det n_p prep det n_s prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+702,det n_p prep det n_p prep det n_s prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+703,det n_p prep det n_p prep det n_p prep det n_s rel aux_p v_trans det n_p aux_p v_trans det n_p,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+704,det n_p prep det n_p prep det n_p prep det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,S,20,16,12
+705,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s aux_p v_trans det n_p,8,0.0008,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+706,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+707,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+708,det n_p rel aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p aux_p v_trans det n_p,9,0.0009,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+709,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+710,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p aux_p v_trans det n_p,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+711,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s aux_p v_trans det n_p,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+712,det n_p rel aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p aux_p v_trans det n_p,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,R,20,16,3
+713,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+714,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p,7,0.0007,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+715,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s,5,0.0005,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+716,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+717,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s,3,0.0003,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+718,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p,4,0.0004,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+719,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s,2,0.0002,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+720,det n_p rel aux_p v_trans det n_p aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p,6,0.0006,S=p|rc=src_trans:R=p|vp=trans:O=p,src_trans,trans,3,O,20,7,3
+721,det n_p rel det n_s aux_s v_trans aux_p v_intrans,85,0.0085,S=p|rc=orc:R=s|vp=intrans,orc,intrans,0,,9,7,5
+722,det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,23,0.0023,S=p|rc=orc:R=s|vp=intrans,orc,intrans,1,S,12,10,8
+723,det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,24,0.0024,S=p|rc=orc:R=s|vp=intrans,orc,intrans,1,S,12,10,8
+724,det n_p rel det n_s prep det n_s aux_s v_trans aux_p v_intrans,26,0.0026,S=p|rc=orc:R=s|vp=intrans,orc,intrans,1,R,12,10,8
+725,det n_p rel det n_s prep det n_p aux_s v_trans aux_p v_intrans,26,0.0026,S=p|rc=orc:R=s|vp=intrans,orc,intrans,1,R,12,10,8
+726,det n_p prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,13,0.0013,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,S,15,13,11
+727,det n_p prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,12,0.0012,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,S,15,13,11
+728,det n_p prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,14,0.0014,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,S,15,13,11
+729,det n_p prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,5,0.0005,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,S,15,13,11
+730,det n_p rel det n_s prep det n_s prep det n_s aux_s v_trans aux_p v_intrans,8,0.0008,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,R,15,13,11
+731,det n_p rel det n_s prep det n_s prep det n_p aux_s v_trans aux_p v_intrans,14,0.0014,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,R,15,13,11
+732,det n_p rel det n_s prep det n_p prep det n_s aux_s v_trans aux_p v_intrans,14,0.0014,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,R,15,13,11
+733,det n_p rel det n_s prep det n_p prep det n_p aux_s v_trans aux_p v_intrans,11,0.0011,S=p|rc=orc:R=s|vp=intrans,orc,intrans,2,R,15,13,11
+734,det n_p prep det n_s prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,8,0.0008,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+735,det n_p prep det n_s prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,4,0.0004,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+736,det n_p prep det n_s prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,7,0.0007,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+737,det n_p prep det n_s prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,5,0.0005,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+738,det n_p prep det n_p prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,8,0.0008,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+739,det n_p prep det n_p prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,6,0.0006,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+740,det n_p prep det n_p prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_intrans,9,0.0009,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+741,det n_p prep det n_p prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_intrans,11,0.0011,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,S,18,16,14
+742,det n_p rel det n_s prep det n_s prep det n_s prep det n_s aux_s v_trans aux_p v_intrans,7,0.0007,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+743,det n_p rel det n_s prep det n_s prep det n_s prep det n_p aux_s v_trans aux_p v_intrans,7,0.0007,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+744,det n_p rel det n_s prep det n_s prep det n_p prep det n_s aux_s v_trans aux_p v_intrans,4,0.0004,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+745,det n_p rel det n_s prep det n_s prep det n_p prep det n_p aux_s v_trans aux_p v_intrans,6,0.0006,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+746,det n_p rel det n_s prep det n_p prep det n_s prep det n_s aux_s v_trans aux_p v_intrans,4,0.0004,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+747,det n_p rel det n_s prep det n_p prep det n_s prep det n_p aux_s v_trans aux_p v_intrans,9,0.0009,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+748,det n_p rel det n_s prep det n_p prep det n_p prep det n_s aux_s v_trans aux_p v_intrans,9,0.0009,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+749,det n_p rel det n_s prep det n_p prep det n_p prep det n_p aux_s v_trans aux_p v_intrans,6,0.0006,S=p|rc=orc:R=s|vp=intrans,orc,intrans,3,R,18,16,14
+750,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,75,0.0075,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,0,,11,7,5
+751,det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,20,0.002,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,1,S,14,10,8
+752,det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,17,0.0017,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,1,S,14,10,8
+753,det n_p rel det n_s prep det n_s aux_s v_trans aux_p v_trans det n_s,15,0.0015,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,1,R,14,10,8
+754,det n_p rel det n_s prep det n_p aux_s v_trans aux_p v_trans det n_s,13,0.0013,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,1,R,14,10,8
+755,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s,16,0.0016,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,1,O,14,7,5
+756,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p,10,0.001,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,1,O,14,7,5
+757,det n_p prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,10,0.001,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,S,17,13,11
+758,det n_p prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,8,0.0008,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,S,17,13,11
+759,det n_p prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,S,17,13,11
+760,det n_p prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,14,0.0014,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,S,17,13,11
+761,det n_p rel det n_s prep det n_s prep det n_s aux_s v_trans aux_p v_trans det n_s,12,0.0012,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,R,17,13,11
+762,det n_p rel det n_s prep det n_s prep det n_p aux_s v_trans aux_p v_trans det n_s,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,R,17,13,11
+763,det n_p rel det n_s prep det n_p prep det n_s aux_s v_trans aux_p v_trans det n_s,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,R,17,13,11
+764,det n_p rel det n_s prep det n_p prep det n_p aux_s v_trans aux_p v_trans det n_s,10,0.001,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,R,17,13,11
+765,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s prep det n_s,9,0.0009,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,O,17,7,5
+766,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s prep det n_p,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,O,17,7,5
+767,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p prep det n_s,12,0.0012,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,O,17,7,5
+768,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p prep det n_p,9,0.0009,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,2,O,17,7,5
+769,det n_p prep det n_s prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+770,det n_p prep det n_s prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,7,0.0007,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+771,det n_p prep det n_s prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+772,det n_p prep det n_s prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+773,det n_p prep det n_p prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+774,det n_p prep det n_p prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+775,det n_p prep det n_p prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+776,det n_p prep det n_p prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s,8,0.0008,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,S,20,16,14
+777,det n_p rel det n_s prep det n_s prep det n_s prep det n_s aux_s v_trans aux_p v_trans det n_s,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+778,det n_p rel det n_s prep det n_s prep det n_s prep det n_p aux_s v_trans aux_p v_trans det n_s,8,0.0008,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+779,det n_p rel det n_s prep det n_s prep det n_p prep det n_s aux_s v_trans aux_p v_trans det n_s,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+780,det n_p rel det n_s prep det n_s prep det n_p prep det n_p aux_s v_trans aux_p v_trans det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+781,det n_p rel det n_s prep det n_p prep det n_s prep det n_s aux_s v_trans aux_p v_trans det n_s,9,0.0009,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+782,det n_p rel det n_s prep det n_p prep det n_s prep det n_p aux_s v_trans aux_p v_trans det n_s,6,0.0006,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+783,det n_p rel det n_s prep det n_p prep det n_p prep det n_s aux_s v_trans aux_p v_trans det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+784,det n_p rel det n_s prep det n_p prep det n_p prep det n_p aux_s v_trans aux_p v_trans det n_s,2,0.0002,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,R,20,16,14
+785,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s prep det n_s prep det n_s,7,0.0007,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+786,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s prep det n_s prep det n_p,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+787,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s prep det n_p prep det n_s,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+788,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_s prep det n_p prep det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+789,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p prep det n_s prep det n_s,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+790,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p prep det n_s prep det n_p,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+791,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p prep det n_p prep det n_s,1,0.0001,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+792,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_s prep det n_p prep det n_p prep det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=s,orc,trans,3,O,20,7,5
+793,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,97,0.0097,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,0,,11,7,5
+794,det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,20,0.002,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,1,S,14,10,8
+795,det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,22,0.0022,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,1,S,14,10,8
+796,det n_p rel det n_s prep det n_s aux_s v_trans aux_p v_trans det n_p,18,0.0018,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,1,R,14,10,8
+797,det n_p rel det n_s prep det n_p aux_s v_trans aux_p v_trans det n_p,15,0.0015,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,1,R,14,10,8
+798,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s,12,0.0012,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,1,O,14,7,5
+799,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p,16,0.0016,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,1,O,14,7,5
+800,det n_p prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,7,0.0007,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,S,17,13,11
+801,det n_p prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,12,0.0012,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,S,17,13,11
+802,det n_p prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,S,17,13,11
+803,det n_p prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,10,0.001,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,S,17,13,11
+804,det n_p rel det n_s prep det n_s prep det n_s aux_s v_trans aux_p v_trans det n_p,10,0.001,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,R,17,13,11
+805,det n_p rel det n_s prep det n_s prep det n_p aux_s v_trans aux_p v_trans det n_p,9,0.0009,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,R,17,13,11
+806,det n_p rel det n_s prep det n_p prep det n_s aux_s v_trans aux_p v_trans det n_p,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,R,17,13,11
+807,det n_p rel det n_s prep det n_p prep det n_p aux_s v_trans aux_p v_trans det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,R,17,13,11
+808,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s prep det n_s,14,0.0014,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,O,17,7,5
+809,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s prep det n_p,9,0.0009,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,O,17,7,5
+810,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p prep det n_s,11,0.0011,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,O,17,7,5
+811,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p prep det n_p,12,0.0012,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,2,O,17,7,5
+812,det n_p prep det n_s prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+813,det n_p prep det n_s prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+814,det n_p prep det n_s prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+815,det n_p prep det n_s prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+816,det n_p prep det n_p prep det n_s prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+817,det n_p prep det n_p prep det n_s prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,6,0.0006,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+818,det n_p prep det n_p prep det n_p prep det n_s rel det n_s aux_s v_trans aux_p v_trans det n_p,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+819,det n_p prep det n_p prep det n_p prep det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p,7,0.0007,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,S,20,16,14
+820,det n_p rel det n_s prep det n_s prep det n_s prep det n_s aux_s v_trans aux_p v_trans det n_p,8,0.0008,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+821,det n_p rel det n_s prep det n_s prep det n_s prep det n_p aux_s v_trans aux_p v_trans det n_p,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+822,det n_p rel det n_s prep det n_s prep det n_p prep det n_s aux_s v_trans aux_p v_trans det n_p,6,0.0006,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+823,det n_p rel det n_s prep det n_s prep det n_p prep det n_p aux_s v_trans aux_p v_trans det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+824,det n_p rel det n_s prep det n_p prep det n_s prep det n_s aux_s v_trans aux_p v_trans det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+825,det n_p rel det n_s prep det n_p prep det n_s prep det n_p aux_s v_trans aux_p v_trans det n_p,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+826,det n_p rel det n_s prep det n_p prep det n_p prep det n_s aux_s v_trans aux_p v_trans det n_p,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+827,det n_p rel det n_s prep det n_p prep det n_p prep det n_p aux_s v_trans aux_p v_trans det n_p,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,R,20,16,14
+828,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s prep det n_s prep det n_s,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+829,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s prep det n_s prep det n_p,4,0.0004,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+830,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s prep det n_p prep det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+831,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_s prep det n_p prep det n_p,6,0.0006,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+832,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p prep det n_s prep det n_s,5,0.0005,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+833,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p prep det n_s prep det n_p,2,0.0002,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+834,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p prep det n_p prep det n_s,3,0.0003,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
+835,det n_p rel det n_s aux_s v_trans aux_p v_trans det n_p prep det n_p prep det n_p prep det n_p,6,0.0006,S=p|rc=orc:R=s|vp=trans:O=p,orc,trans,3,O,20,7,5
