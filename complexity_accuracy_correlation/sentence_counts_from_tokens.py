@@ -57,20 +57,18 @@ VERB_TAGS = ("v_trans", "v_intrans")
 def _walk_np(node, counts):
     """Count this NP and everything embedded in it."""
     counts["nps"] += 1
-    mod = node["mod"]
-    if mod is None:
-        return
-    if mod["type"] == "pp":
-        _walk_np(mod["np"], counts)
-    elif mod["type"] == "rc_subj":
-        counts["clauses"] += 1
-        if mod["obj"] is not None:
-            _walk_np(mod["obj"], counts)
-    elif mod["type"] == "rc_obj":
-        counts["clauses"] += 1
-        _walk_np(mod["embedded"], counts)
-    else:
-        raise GrammarError(f"unknown mod type {mod['type']}")
+    for mod in node["mods"]:
+        if mod["type"] == "pp":
+            _walk_np(mod["np"], counts)
+        elif mod["type"] == "rc_subj":
+            counts["clauses"] += 1
+            if mod["obj"] is not None:
+                _walk_np(mod["obj"], counts)
+        elif mod["type"] == "rc_obj":
+            counts["clauses"] += 1
+            _walk_np(mod["embedded"], counts)
+        else:
+            raise GrammarError(f"unknown mod type {mod['type']}")
 
 
 def sentence_counts(token_string):

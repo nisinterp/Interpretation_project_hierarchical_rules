@@ -35,6 +35,8 @@ add_avg_dependency_distance.py:
     NP   -> Det N RC-subj
     NP   -> Det N RC-obj
     NP   -> Det N PP
+    NP   -> Det N PP RC-subj | Det N PP RC-obj   (PP-chain test set only;
+            the RC attaches to the head noun, nouns inside a PP take no RC)
     RC-subj -> rel AUX V (NP)?
     RC-obj  -> rel NP AUX V
     PP   -> prep NP
@@ -76,7 +78,16 @@ class GrammarError(ValueError):
 # actual tokens are needed).
 # ---------------------------------------------------------------------------
 
-def parse_np(tags, idx):
+def parse_np(tags, idx, allow_rc=True):
+    """NP -> Det N PP* RC?   (PP -> prep NP, where that NP takes no RC).
+
+    A noun can carry a right-branching chain of PPs and, after the whole
+    chain, a relative clause that attaches to the head noun
+    ("the peacock near the ravens who doesn't sleep ..."). Nouns inside a PP
+    take only further PPs, never an RC. No type in question.test or the
+    recursion-depth test sets has a PP followed by an RC, so for those files
+    this gives the same trees as the earlier one-modifier grammar.
+    """
     if idx >= len(tags) or tags[idx] != "det":
         raise GrammarError(f"expected det at {idx}, got {tags[idx:idx+1]}")
     det_idx = idx
@@ -86,8 +97,15 @@ def parse_np(tags, idx):
     noun_idx = idx
     idx += 1
 
-    mod = None
-    if idx < len(tags) and tags[idx] == "rel":
+    mods = []
+    if idx < len(tags) and tags[idx] == "prep":
+        # right-branching chain: the PP's own NP takes the next PP
+        prep_idx = idx
+        idx += 1
+        pp_np, idx = parse_np(tags, idx, allow_rc=False)
+        mods.append(dict(type="pp", prep_idx=prep_idx, np=pp_np))
+
+    if allow_rc and idx < len(tags) and tags[idx] == "rel":
         rel_idx = idx
         idx += 1
         if idx < len(tags) and tags[idx].startswith("aux_"):
@@ -102,7 +120,7 @@ def parse_np(tags, idx):
             obj_node = None
             if v_type == "v_trans":
                 obj_node, idx = parse_np(tags, idx)
-            mod = dict(type="rc_subj", rel_idx=rel_idx, aux_idx=aux_idx, verb_idx=verb_idx, obj=obj_node)
+            mods.append(dict(type="rc_subj", rel_idx=rel_idx, aux_idx=aux_idx, verb_idx=verb_idx, obj=obj_node))
         elif idx < len(tags) and tags[idx] == "det":
             # object-extracted RC: rel NP AUX V   (gap = object)
             embedded_node, idx = parse_np(tags, idx)
@@ -114,16 +132,11 @@ def parse_np(tags, idx):
                 raise GrammarError(f"expected v_trans at {idx}")
             verb_idx = idx
             idx += 1
-            mod = dict(type="rc_obj", rel_idx=rel_idx, embedded=embedded_node, aux_idx=aux_idx, verb_idx=verb_idx)
+            mods.append(dict(type="rc_obj", rel_idx=rel_idx, embedded=embedded_node, aux_idx=aux_idx, verb_idx=verb_idx))
         else:
             raise GrammarError(f"unexpected token after 'rel' at {idx}: {tags[idx:idx+1]}")
-    elif idx < len(tags) and tags[idx] == "prep":
-        prep_idx = idx
-        idx += 1
-        pp_np, idx = parse_np(tags, idx)
-        mod = dict(type="pp", prep_idx=prep_idx, np=pp_np)
 
-    return dict(det_idx=det_idx, noun_idx=noun_idx, mod=mod), idx
+    return dict(det_idx=det_idx, noun_idx=noun_idx, mods=mods), idx
 
 
 def parse_sentence(tags):
@@ -161,9 +174,10 @@ def build_head_map(subject_node, main_aux_idx, main_verb_idx, object_node):
         heads[noun_idx] = parent_idx
         heads[det_idx] = noun_idx
 
-        mod = node["mod"]
-        if mod is None:
-            return
+        for mod in node["mods"]:
+            emit_mod(mod, noun_idx)
+
+    def emit_mod(mod, noun_idx):
         if mod["type"] == "pp":
             heads[mod["prep_idx"]] = mod["np"]["noun_idx"]
             emit_np(mod["np"], noun_idx)

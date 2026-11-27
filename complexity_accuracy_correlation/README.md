@@ -78,3 +78,50 @@ Notes:
   generalize (mean acc ≥ 0.75). It is significantly positive for 4 seeds that
   do not generalize (mean acc ≤ 0.35). Sentence length, branching factor and
   NP count show no consistent effect (median |r| < 0.1).
+
+## Longer-PP run (`results_new_allseeds_longer_pp_per_type.csv`)
+
+Input: `data/allseeds_longer_pp/results_new_allseeds_longer_pp_per_type.csv`
+(from jacoblvovski/jail_lexicon_attitude_study). It has 36 seeds × 836
+constructions, scored on `../pp_depth_extension/data/question_extended_pp_d3.test`
+(PP chains of depth 0–3 on the main subject, the noun inside the RC, or the
+main object).
+
+```bash
+python3 correlate_allseeds.py data/allseeds_longer_pp/results_new_allseeds_longer_pp_per_type.csv results allseeds_longer_pp
+```
+
+Outputs are `results/allseeds_longer_pp_{per_type_metrics.csv,correlations.csv,correlations.xlsx}`.
+They have the same layout as the all-seeds run above, and each sheet compares
+the metric with `sentence_length`.
+
+Parser change: in this test set a subject can carry a PP chain followed by an
+RC that attaches to the head noun ("the peacock near the ravens who doesn't
+sleep does giggle"). `parse_np` now allows `Det N PP* RC?`, where nouns inside a
+PP take only further PPs. No earlier file contains a PP followed by an RC, and
+all earlier result files are reproduced byte for byte.
+
+Results (Pearson r, one point per construction, 836 per seed):
+
+| metric | median r | seeds with significant r < 0 | seeds with significant r > 0 | seeds where \|r\| > \|r(sentence_length)\| |
+|---|---|---|---|---|
+| sentence_length | −0.08 | 20 | 2 | – |
+| avg_dependency_distance | −0.27 | 28 | 7 | 34/36 |
+| avg_branching_factor | −0.19 | 27 | 4 | 35/36 |
+| nps_per_sentence | −0.05 | 13 | 2 | 5/36 |
+| verb_noun_ratio | +0.09 | 3 | 22 | 20/36 |
+
+- No seed is at ceiling on this set (mean accuracy 0.10–0.85), so every
+  correlation is defined.
+- Average dependency distance is positively correlated with accuracy for all 7
+  seeds with mean accuracy ≤ 0.31 (r ≈ +0.44 to +0.56). The correlation is
+  about 0 for seed0 (0.38) and negative for all 28 seeds with mean accuracy ≥ 0.47
+  (r down to −0.60). This is the same split as on `question.test`, and here it
+  covers every seed. Sentence length stays weak (|r| ≤ 0.16) for every seed.
+- Pooled accuracy by where the PP chain attaches: no PP 0.79, object 0.79 (at
+  every depth), main subject 0.56 / 0.50 / 0.49 (depth 1/2/3), inside the RC
+  0.48 / 0.44 / 0.43. Most of the dependency-distance effect therefore comes
+  from PP chains that lengthen the subject.
+- `clauses_per_sentence` and `verbs_per_sentence` are always 2 here, so their
+  sheets are blank. Per-type `n` is small (about 12 sentences), so per-type
+  accuracies are noisy.
